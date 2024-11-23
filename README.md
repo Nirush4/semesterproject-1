@@ -1,4 +1,4 @@
-# FED1 Semester Project 1
+# FED1 Semester Project-1 (The Community Science Museum)
 
 ## Resources
 
