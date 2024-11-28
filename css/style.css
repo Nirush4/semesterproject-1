@@ -37,6 +37,30 @@ a {
     font-family: 'Roboto';
 }
 
+@media(prefers-reduced-motion: no-preference) {
+
+    .fade__in {
+        display: flex;
+        flex-direction: row;
+        flex: 1 1 100%;
+        animation: fade-in linear forwards;
+        animation-timeline: view();
+        animation-range: entry;
+    }
+
+    @keyframes fade-in {
+        from {
+            scale: 0.6;
+            opacity: 0;
+        }
+
+        to {
+            scale: 1;
+            opacity: 1;
+        }
+    }
+
+}
 
 /*imp! HEADER */
 
@@ -51,6 +75,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: all 0.3s ease-in-out;
 }
 
 .header-top {
@@ -304,7 +329,7 @@ header {
         justify-content: center;
         width: 80%;
         height: 100dvh;
-        padding-bottom: 15rem;
+        /* padding-bottom: 15rem; */
         position: fixed;
         top: 0%;
         right: -100%;
@@ -343,19 +368,6 @@ header {
         right: 0%;
     }
 
-    .jacket-categories-sub ul {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .jacket-categories-sub ul li a {
-        display: block;
-        width: 100%;
-        padding: 0.3rem 0.7rem;
-
-    }
-
-
 }
 
 .nav-icons {
@@ -389,10 +401,6 @@ header {
     .logo {
         width: 9rem;
     }
-
-    /* #search {
-        display: inline-block;
-    } */
 
     .logo-div-right {
         position: fixed;
@@ -532,7 +540,7 @@ header {
     justify-content: flex-start;
     flex-wrap: nowrap;
     gap: 1.7rem;
-    width: 120%;
+    width: 100%;
     height: 27rem;
     padding-right: 20%;
     overflow-x: scroll;
@@ -1242,7 +1250,19 @@ header {
     font-family: 'Judson', Times, serif;
     font-size: 1.4rem;
     font-size: clamp(1.4rem, 1.18rem + 1.1vw, 2.5rem);
+    position: relative;
+    width: fit-content;
 
+}
+
+.section-6-home h2::after {
+    content: "";
+    width: 100%;
+    height: 0.25rem;
+    background-color: var(--color-primary);
+    position: absolute;
+    bottom: -2px;
+    left: 0;
 }
 
 .section-6-component {
@@ -1259,9 +1279,10 @@ header {
     display: flex;
     gap: 1.5rem;
     overflow-x: scroll;
+    padding-bottom: 1rem;
 }
 
-.section-6-component-img-div {
+.section-6-component-img-div-1 {
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -1273,7 +1294,67 @@ header {
     text-decoration: none;
 }
 
-.section-6-component-img-div h3 {
+.section-6-component-img-div-2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(/images/home/section-6/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 18rem;
+    text-decoration: none;
+}
+
+.section-6-component-img-div-3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(/images/home/section-6/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 18rem;
+    text-decoration: none;
+}
+
+.section-6-component-img-div-4 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(/images/home/section-6/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 18rem;
+    text-decoration: none;
+}
+
+.section-6-component-img-div-5 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(/images/home/section-6/5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 18rem;
+    text-decoration: none;
+}
+
+.section-6-component-img-div-6 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(/images/home/section-6/6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 18rem;
+    text-decoration: none;
+}
+
+.section__6__common h3 {
     padding: 0.5rem 3.6rem;
     background-color: rgb(0 0 0 / 0.5);
     color: #fff;
@@ -1284,10 +1365,16 @@ header {
 }
 
 
-/* 
+
+
+
+
+
+
+
 .logo-div-right {
     display: none;
-} */
+}
 
 
 
