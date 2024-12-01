@@ -429,7 +429,7 @@ header {
 /*imp! SECTION-HERO */
 
 .breadcrumb {
-    /* margin-top: 13.5rem; */
+    margin-top: 13.5rem;
     padding: 0.5rem 9%;
 }
 
@@ -461,16 +461,48 @@ header {
 .section-1-visit {
     display: flex;
     flex: 1 1 100%;
+    gap: 3rem;
+    padding-top: 5.5rem;
 }
 
 .section-1-visit-left {
     display: flex;
     flex: 1 1 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 9%;
+
+    h1 {
+        font-family: 'Judson', Times, serif;
+        font-size: 1.4rem;
+        font-size: clamp(1.4rem, 0.9799999999999999rem + 2.1vw, 3.5rem);
+        color: #000000;
+    }
+
+    p {
+        font-size: 1.2rem;
+        font-size: 400;
+        text-align: justify;
+        padding-top: 2rem;
+        color: #000000;
+    }
 }
 
 .section-1-visit-right {
     display: flex;
     flex: 1 1 50%;
+}
+
+.section-1-visit-img-div {
+    width: 100%;
+    height: auto;
+
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
 }
 
 /*imp! FOOTER */
