@@ -79,7 +79,7 @@ header {
 .header-top {
     display: flex;
     width: 100%;
-    padding: 0.5rem 9%;
+    padding: 0.5rem 8%;
     justify-content: space-between;
     align-items: center;
     /* background-color: var(--color-header-top); */
@@ -135,7 +135,7 @@ header {
     width: 100%;
     height: 6.5rem;
     background-color: var(--color-primary);
-    padding: 1.5rem 9%;
+    padding: 1.5rem 8%;
     background-image: url(/images/header-foreground-image.svg);
     background-size: cover;
     background-repeat: round;
@@ -202,7 +202,7 @@ header {
     justify-content: space-between;
     background-color: #fff;
     border-bottom: 1px solid #000000;
-    padding: 0rem 9%;
+    padding: 0rem 8%;
 
 }
 
@@ -253,7 +253,7 @@ header {
 .c-open-menu {
     color: #fff;
     top: 75%;
-    right: 9%;
+    right: 8%;
     transform: translateY(-50);
 }
 
@@ -431,20 +431,41 @@ header {
     width: 100%;
     height: 100%;
     padding-top: 7%;
-    position: sticky;
-    top: -40px;
-    z-index: -2;
+
+}
+
+.hero-img img {
+    display: none;
+    object-fit: cover;
+    width: 100%;
+    height: 40rem;
+}
+
+.hero-img-mobile {
+    position: relative;
+}
+
+.overlay {
+    display: none;
+    position: absolute;
+    inset: 0 0;
+    background-color: #000000;
+    opacity: 0.3;
+    height: 40rem;
 }
 
 .hero-img video {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    position: sticky;
+    top: -40px;
+    z-index: -2;
 }
 
 .hero-text-div {
     position: absolute;
-    inset: 55% 10% auto 10%;
+    inset: 65% 10% auto 10%;
     justify-content: center;
     text-align: center;
     display: flex;
@@ -455,6 +476,7 @@ header {
 
     span {
         font-family: 'Roboto';
+        color: #fff;
     }
 
     h1 {
@@ -463,22 +485,35 @@ header {
         font-family: 'Italiana';
         font-weight: 600;
         padding-bottom: 2rem;
+        color: #fff;
     }
 
     a {
         text-decoration: none;
-        color: #fff;
+        color: #000000;
+        background-color: #fff;
         font-family: 'Roboto';
         font-size: 1.5rem;
-        padding: 0.7rem 2.8rem;
-        border-radius: 0.4rem;
-        border: 2px solid #ffff;
+        padding: 0.7rem 2.5rem;
+        border-radius: 0.3rem;
+        font-weight: 500;
 
     }
 
     a:hover {
-        background-color: #fff;
-        color: #767676;
+        background-color: var(--color-primary);
+        color: #fff;
+    }
+}
+
+@media (width<1260px) {
+    .hero-text-div {
+        position: absolute;
+        inset: 22rem 10% auto 10%;
+    }
+
+    .hero-text-div a {
+        font-size: 1.3rem;
     }
 }
 
@@ -520,21 +555,38 @@ header {
 }
 
 @media (width<600px) {
+    .hero-img img {
+        display: flex;
+    }
+
+    .overlay {
+        display: block;
+    }
+
     .hero-text-div {
-        inset: 63% 10% auto 10%;
+        inset: 25rem 10% auto 10%;
+    }
+
+    .hero-img video {
+        display: none;
+    }
+
+    .hero-text-div a {
+        font-size: 1.1rem;
     }
 }
 
 /*imp! SECTION-1 */
 
 .section-1-home {
-    padding: 0.5rem 9%;
+    padding: 0.5rem 8%;
     padding-top: 5rem;
 }
 
 .section-1-row-1 {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 
     h2 {
         font-family: 'Judson', Times, serif;
@@ -576,7 +628,7 @@ header {
     flex-wrap: nowrap;
     gap: 1.7rem;
     width: 100%;
-    height: 27rem;
+    height: 29rem;
     padding-right: 20%;
     overflow-x: scroll;
     cursor: pointer;
@@ -587,7 +639,7 @@ header {
     display: flex;
     flex-direction: column;
     padding-top: 3rem;
-    min-width: 26rem;
+    min-width: 30rem;
     height: auto;
     transition: all 0.3s ease-in-out;
     overflow: hidden;
@@ -598,12 +650,12 @@ header {
         font-weight: 500;
         display: flex;
         color: #fff;
-        padding: 0.2rem 1rem;
+        padding: 0.5rem 1rem;
         transition: all 3s ease-in-out;
         z-index: 2;
     }
 
-    img:hover+h4 {
+    img:hover~h4 {
         justify-content: center;
     }
 
@@ -712,7 +764,7 @@ header {
 /*imp! SECTION-2 */
 
 .section-2-home {
-    padding: 0rem 9%;
+    padding: 0rem 8%;
     padding-top: 4rem;
 }
 
@@ -815,7 +867,7 @@ header {
 /*imp! SECTION-3 */
 
 .section-3-home {
-    padding: 1.5rem 9%;
+    padding: 1.5rem 8%;
     padding-top: 4rem;
     display: flex;
     flex-direction: column;
@@ -1062,7 +1114,7 @@ header {
 /*imp! SECTION-4 */
 
 .section-4-home {
-    padding: 3rem 9% 0;
+    padding: 3rem 8% 0;
 }
 
 .section-4-component-1 {
@@ -1134,7 +1186,7 @@ header {
 @media (width<850px) {
 
     .section-4-home {
-        padding: 1rem 9% 0;
+        padding: 1rem 8% 0;
     }
 
     .section-4-component-1 {
@@ -1171,7 +1223,7 @@ header {
 /*imp! SECTION-5 */
 
 .section-5-home {
-    padding: 7rem 9% 6rem;
+    padding: 7rem 8% 6rem;
 }
 
 .section-5-component {
@@ -1258,14 +1310,14 @@ header {
 @media (width<850px) {
 
     .section-5-home {
-        padding: 5rem 9%;
+        padding: 5rem 8%;
     }
 }
 
 @media (width<600px) {
 
     .section-5-home {
-        padding: 2rem 9%;
+        padding: 2rem 8%;
     }
 
     .section-5-component-content-div p {
@@ -1282,7 +1334,7 @@ header {
 /*imp! SECTION-6 */
 
 .section-6-home {
-    padding: 0 9% 3rem;
+    padding: 0 8% 3rem;
 }
 
 .section-6-home h2 {
@@ -1427,7 +1479,7 @@ header {
     gap: 2rem;
     align-items: center;
     justify-content: center;
-    padding: 0 9%;
+    padding: 0 8%;
     padding-top: 1.3rem;
 
 
@@ -1480,7 +1532,7 @@ header {
 }
 
 .footer-row-2-left {
-    padding-left: 9%;
+    padding-left: 8%;
     padding-top: 4rem;
     display: flex;
     flex-direction: column;
@@ -1706,7 +1758,8 @@ header {
     width: 10rem;
     height: 2.7rem;
     border-radius: 0.3rem;
-    border: 1px solid #000000;
+    background-color: var(--color-footer-bg);
+    border: 1.5px solid #000000;
     transition: all 0.2s ease-in-out;
 }
 
@@ -1731,7 +1784,7 @@ header {
     align-items: center;
     height: 4rem;
     width: 100%;
-    padding: 0 9%;
+    padding: 0 8%;
     background-color: var(--color-secondary);
     justify-content: space-between;
 }
@@ -1813,11 +1866,11 @@ header {
     }
 
     .footer__right__common {
-        padding: 2.5rem 9% 2rem 9%;
+        padding: 2.5rem 8% 2rem 8%;
     }
 
     #map {
-        padding-right: 9%;
+        padding-right: 8%;
     }
 
     #map iframe {

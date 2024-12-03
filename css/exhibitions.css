@@ -76,7 +76,7 @@ header {
 .header-top {
     display: flex;
     width: 100%;
-    padding: 0.5rem 9%;
+    padding: 0.5rem 8%;
     justify-content: space-between;
     align-items: center;
     /* background-color: var(--color-header-top); */
@@ -132,7 +132,7 @@ header {
     width: 100%;
     height: 6.5rem;
     background-color: var(--color-primary);
-    padding: 1.5rem 9%;
+    padding: 1.5rem 8%;
     background-image: url(/images/header-foreground-image.svg);
     background-size: cover;
     background-repeat: round;
@@ -199,7 +199,7 @@ header {
     justify-content: space-between;
     background-color: #fff;
     border-bottom: 1px solid #000000;
-    padding: 0rem 9%;
+    padding: 0rem 8%;
 
 }
 
@@ -222,7 +222,7 @@ header {
     /* padding: 0.9rem 3rem; */
 }
 
-.nav-links li:nth-child(2) {
+.nav-links li:nth-child(3) {
     text-decoration: underline;
 }
 
@@ -250,7 +250,7 @@ header {
 .c-open-menu {
     color: #fff;
     top: 75%;
-    right: 9%;
+    right: 8%;
     transform: translateY(-50);
 }
 
@@ -425,7 +425,7 @@ header {
 /*imp! SECTION-1 */
 
 .section-1-exhibitions {
-    padding: 13.5rem 9% 5rem;
+    padding: 13.5rem 8% 5rem;
 }
 
 .breadcrumb a {
@@ -473,18 +473,18 @@ header {
 
     h4 {
         font-family: 'Roboto';
-        font-size: 1.7rem;
+        font-size: 1.8rem;
         font-weight: 500;
         color: #000000;
     }
 }
 
-.current {
+.upcoming {
     position: relative;
     width: fit-content;
 }
 
-.current::after {
+.upcoming::after {
     content: "";
     width: 100%;
     height: 0.25rem;
@@ -492,38 +492,6 @@ header {
     position: absolute;
     bottom: -2px;
     left: 0;
-}
-
-
-@media (width<850px) {
-    .section-1-exhibitions {
-        padding-top: 11.5rem
-    }
-
-    .breadcrumb a {
-        font-size: 1.1rem;
-    }
-
-    .section-1-exhibitions-category h4 {
-        font-size: 1.5rem;
-    }
-}
-
-@media (width<600px) {
-    .section-1-exhibitions h1 {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
-
-    .section-1-exhibitions-category {
-        display: flex;
-        justify-content: space-between;
-        gap: 0;
-    }
-
-    .section-1-exhibitions-category h4 {
-        font-size: 1.2rem;
-    }
 }
 
 .section-1-exhibitions-list-content {
@@ -599,12 +567,12 @@ header {
     padding-bottom: 1rem;
 }
 
-button {
+.buy-ticket {
     width: fit-content;
     border: transparent;
 }
 
-button a {
+.buy-ticket a {
     text-decoration: none;
     font-family: 'Roboto';
     font-size: 1.3rem;
@@ -616,7 +584,7 @@ button a {
 
 }
 
-button a:hover {
+.buy-ticket a:hover {
     background-color: #fff;
     color: #000000;
 
@@ -727,13 +695,224 @@ button a:hover {
     color: #000000;
 }
 
+@media (width<850px) {
+    .section-1-exhibitions {
+        padding-top: 11.5rem
+    }
+
+    .breadcrumb a {
+        font-size: 1.1rem;
+    }
+
+    .section-1-exhibitions-category h4 {
+        font-size: 1.5rem;
+    }
+
+
+    .section-1-exhibitions-list-content h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (width<600px) {
+    .section-1-exhibitions h1 {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .section-1-exhibitions-category {
+        display: flex;
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .section-1-exhibitions-category h4 {
+        font-size: 1.2rem;
+    }
+
+    .section-1-exhibitions-component {
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        gap: 1rem;
+        padding-top: 2rem;
+    }
+
+    .section-1-exhibitions-list-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .get-exhibitions-lable-common {
+        margin-bottom: 1rem;
+    }
+
+    .section-1-span-1,
+    .section-1-span-2,
+    .section-1-p-2,
+    .read-more-common p,
+    .get-exhibitions-lable-common {
+        font-size: 1rem;
+    }
+
+    .section-1-p-1 {
+        font-size: 0.9rem;
+    }
+
+    button {
+        display: flex;
+        justify-content: center;
+    }
+
+    button a {
+        font-size: 1.1rem;
+        padding: 0.6rem 1.2rem;
+    }
+
+    .section-1-exhibitions {
+        padding-bottom: 0;
+    }
+}
+
 /*imp! SECTION-2 */
 
+
+.section-2-exhibitions {
+    padding: 3rem 8% 1rem;
+}
+
+.section-2-exhibitions h2 {
+    font-family: 'Judson', Times, serif;
+    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 1.1rem + 2vw, 3.5rem);
+    color: #000000;
+    padding-bottom: 0.2rem;
+    width: fit-content;
+    position: relative;
+}
+
+.section-2-exhibitions h2::after {
+    content: "";
+    width: 100%;
+    height: 0.25rem;
+    background-color: var(--color-primary);
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+}
+
+.exhibition-spaces-component {
+    padding-bottom: 5rem;
+}
+
+.exhibition-spaces-list {
+    display: flex;
+    flex: 1 1 100%;
+    gap: 6%;
+
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+.b-b-exhibition-list {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    border-bottom: 1px solid #a5a5a5;
+}
+
+.exhibition-spaces-img {
+    display: flex;
+    flex: 1 1 50%;
+    width: 100%;
+
+}
+
+
+.exhibition-spaces-list-text {
+    display: flex;
+    flex: 1 1 50%;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    h3 {
+        font-family: 'Roboto';
+        font-size: 2rem;
+        font-weight: 500;
+        color: #000000;
+    }
+
+    p {
+        font-family: 'Roboto';
+        font-size: 1.2rem;
+        font-weight: 400;
+        text-align: justify;
+        color: #000000;
+        line-height: 1.5rem;
+    }
+}
+
+.exhibition-spaces-list-2 div:nth-child(1) {
+    order: 2;
+}
+
+.exhibition-spaces-list-last {
+    padding-top: 5rem;
+}
+
+@media (width<850px) {
+    .exhibition-spaces-list {
+        flex-direction: column;
+        gap: 1.5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .exhibition-spaces-list-2 div:nth-child(2) {
+        order: 2;
+    }
+
+    .exhibition-spaces-list-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .exhibition-spaces-list-text p {
+        font-size: 1.1rem;
+    }
+
+    .exhibition-spaces-component {
+        padding-bottom: 3rem;
+    }
+}
+
+@media (width<600px) {
+    .exhibition-spaces-list {
+        flex-direction: column;
+        gap: 1.5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .exhibition-spaces-list-2 div:nth-child(2) {
+        order: 2;
+    }
+
+    .exhibition-spaces-list-text h3 {
+        font-size: 1.2rem;
+    }
+
+    .exhibition-spaces-list-text p {
+        font-size: 1rem;
+    }
+
+    .exhibition-spaces-component {
+        padding-bottom: 0rem;
+    }
+}
 
 /*imp! SECTION-3 */
 
 .get-involved {
-    padding: 1rem 9% 4rem;
+    padding: 1rem 8% 4rem;
     background-color: var(--color-tertiary);
 }
 
@@ -886,7 +1065,7 @@ button a:hover {
 
 @media (width<600px) {
     .get-involved {
-        padding: 0 9% 3rem;
+        padding: 0 8% 3rem;
     }
 
     .get-involved-text {
@@ -916,7 +1095,7 @@ button a:hover {
     gap: 2rem;
     align-items: center;
     justify-content: center;
-    padding: 0 9%;
+    padding: 0 8%;
     padding-top: 1.3rem;
 
 
@@ -969,7 +1148,7 @@ button a:hover {
 }
 
 .footer-row-2-left {
-    padding-left: 9%;
+    padding-left: 8%;
     padding-top: 4rem;
     display: flex;
     flex-direction: column;
@@ -1195,7 +1374,8 @@ button a:hover {
     width: 10rem;
     height: 2.7rem;
     border-radius: 0.3rem;
-    border: 1px solid #000000;
+    background-color: var(--color-footer-bg);
+    border: 1.5px solid #000000;
     transition: all 0.2s ease-in-out;
 }
 
@@ -1220,7 +1400,7 @@ button a:hover {
     align-items: center;
     height: 4rem;
     width: 100%;
-    padding: 0 9%;
+    padding: 0 8%;
     background-color: var(--color-secondary);
     justify-content: space-between;
 }
@@ -1302,11 +1482,11 @@ button a:hover {
     }
 
     .footer__right__common {
-        padding: 2.5rem 9% 2rem 9%;
+        padding: 2.5rem 8% 2rem 8%;
     }
 
     #map {
-        padding-right: 9%;
+        padding-right: 8%;
     }
 
     #map iframe {
