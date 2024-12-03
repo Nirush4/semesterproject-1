@@ -76,7 +76,7 @@ header {
 .header-top {
     display: flex;
     width: 100%;
-    padding: 0.5rem 9%;
+    padding: 0.5rem 8%;
     justify-content: space-between;
     align-items: center;
     /* background-color: var(--color-header-top); */
@@ -132,7 +132,7 @@ header {
     width: 100%;
     height: 6.5rem;
     background-color: var(--color-primary);
-    padding: 1.5rem 9%;
+    padding: 1.5rem 8%;
     background-image: url(/images/header-foreground-image.svg);
     background-size: cover;
     background-repeat: round;
@@ -199,7 +199,7 @@ header {
     justify-content: space-between;
     background-color: #fff;
     border-bottom: 1px solid #000000;
-    padding: 0rem 9%;
+    padding: 0rem 8%;
 
 }
 
@@ -250,7 +250,7 @@ header {
 .c-open-menu {
     color: #fff;
     top: 75%;
-    right: 9%;
+    right: 8%;
     transform: translateY(-50);
 }
 
@@ -425,7 +425,7 @@ header {
 /*imp! SECTION-HERO */
 
 .breadcrumb {
-    padding: 0.5rem 9%;
+    padding: 0.5rem 8%;
 }
 
 .breadcrumb i {
@@ -492,7 +492,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 9%;
+    padding-left: 8%;
 
     h1 {
         font-family: 'Judson', Times, serif;
@@ -542,7 +542,7 @@ header {
     }
 
     .section-1-visit-left {
-        padding: 0rem 9%;
+        padding: 0rem 8%;
     }
 }
 
@@ -556,7 +556,7 @@ header {
 
 
 .section-2-visit {
-    padding: 5.5rem 9%;
+    padding: 5.5rem 8%;
 
     h2 {
         font-family: 'Judson', Times, serif;
@@ -685,7 +685,7 @@ header {
 
 @media (width<600px) {
     .section-2-visit {
-        padding: 4.5rem 9%;
+        padding: 4.5rem 8%;
     }
 
     .section-2-visit-component {
@@ -710,12 +710,16 @@ header {
         font-size: 1rem;
         padding: 0.6rem 1rem;
     }
+
+    .section-2-visit-list-img {
+        width: 16rem;
+    }
 }
 
 /*imp! SECTION-3 */
 
 .get-involved {
-    padding: 1rem 9% 4rem;
+    padding: 1rem 8% 4rem;
     background-color: var(--color-tertiary);
 }
 
@@ -868,7 +872,7 @@ header {
 
 @media (width<600px) {
     .get-involved {
-        padding: 0 9% 3rem;
+        padding: 0 8% 3rem;
     }
 
     .get-involved-text {
@@ -898,7 +902,7 @@ header {
     gap: 2rem;
     align-items: center;
     justify-content: center;
-    padding: 0 9%;
+    padding: 0 8%;
     padding-top: 1.3rem;
 
 
@@ -951,7 +955,7 @@ header {
 }
 
 .footer-row-2-left {
-    padding-left: 9%;
+    padding-left: 8%;
     padding-top: 4rem;
     display: flex;
     flex-direction: column;
@@ -1177,7 +1181,8 @@ header {
     width: 10rem;
     height: 2.7rem;
     border-radius: 0.3rem;
-    border: 1px solid #000000;
+    background-color: var(--color-footer-bg);
+    border: 1.5px solid #000000;
     transition: all 0.2s ease-in-out;
 }
 
@@ -1202,7 +1207,7 @@ header {
     align-items: center;
     height: 4rem;
     width: 100%;
-    padding: 0 9%;
+    padding: 0 8%;
     background-color: var(--color-secondary);
     justify-content: space-between;
 }
@@ -1284,11 +1289,11 @@ header {
     }
 
     .footer__right__common {
-        padding: 2.5rem 9% 2rem 9%;
+        padding: 2.5rem 8% 2rem 8%;
     }
 
     #map {
-        padding-right: 9%;
+        padding-right: 8%;
     }
 
     #map iframe {
