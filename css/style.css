@@ -647,7 +647,7 @@ header {
         display: flex;
         color: #fff;
         padding: 0.5rem 1rem;
-        transition: all 3s ease-in-out;
+        transition: all 0.3s ease-in-out;
         z-index: 2;
     }
 

@@ -485,6 +485,7 @@ header {
     flex: 1 1 100%;
     gap: 3rem;
     padding-top: 5.5rem;
+    padding-bottom: 5rem;
 }
 
 .section-1-visit-left {
@@ -548,23 +549,29 @@ header {
 }
 
 @media (width<600px) {
+    .section-1-visit {
+        padding-bottom: 3rem;
+    }
+
     .section-1-visit-left p {
         font-size: 1rem;
     }
+
 }
 
 /*imp! SECTION-2 */
 
 
 .section-2-visit {
-    padding: 5.5rem 8%;
+    padding: 4rem 8%;
+    background-color: var(--color-secondary);
 
     h2 {
         font-family: 'Judson', Times, serif;
         font-size: 1.4rem;
         font-size: clamp(1.4rem, 1.1199999999999999rem + 1.4vw, 2.8rem);
         font-weight: 600;
-        color: #000000;
+        color: #fff;
         width: fit-content;
         position: relative;
     }
@@ -592,17 +599,17 @@ header {
     gap: 2rem;
     align-items: flex-start;
     padding: 2rem 0;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #fff;
 }
 
 .section-2-visit-list-img {
     width: 19rem;
     height: auto;
-    flex: 1 1 25%;
+    flex: 1 1 30%;
 
     img {
         width: 100%;
-        height: auto;
+        height: 100%;
         object-fit: cover;
     }
 }
@@ -611,12 +618,12 @@ header {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-    flex: 1 1 65%;
+    flex: 1 1 60%;
 
     h3 {
         font-family: 'Roboto';
         font-size: 1.8rem;
-        color: #000000;
+        color: #fff;
         font-weight: 500;
     }
 
@@ -625,7 +632,7 @@ header {
         font-size: 1.2rem;
         font-weight: 400;
         text-align: justify;
-        color: var(--color-gray);
+        color: var(--color-tertiary);
         max-width: 45rem;
     }
 }
@@ -641,8 +648,8 @@ header {
     padding: 0.9rem 1.4rem;
     font-size: 1.2rem;
     font-weight: 400;
-    background-color: var(--color-learnmore-btn);
-    border: 2px solid var(--color-learnmore-btn);
+    background-color: var(--color-primary);
+    border: 2px solid var(--color-primary);
     color: #fff;
     transition: all 0.3s ease-in-out;
     text-align: center;
@@ -651,7 +658,12 @@ header {
 .section-2-visit-list-learn a:hover {
     background-color: #fff;
     color: #000000;
-    border: 2px solid #000000;
+    border: 2px solid #fff;
+}
+
+.section-2-visit-list:nth-child(5) {
+    border-bottom: none;
+    padding-bottom: 0;
 }
 
 @media (width<1080px) {
@@ -686,7 +698,7 @@ header {
 
 @media (width<600px) {
     .section-2-visit {
-        padding: 4.5rem 8%;
+        padding: 3rem 8%;
     }
 
     .section-2-visit-component {
