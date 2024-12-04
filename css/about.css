@@ -82,13 +82,13 @@ header {
     /* background-color: var(--color-header-top); */
     background-image: linear-gradient(45deg, #074191, #006473, #0082cd, #006473, #074191);
     background-size: 200% auto;
-    animation: topAni 4s linear infinite;
+    animation: topAnimation 4s linear infinite;
     color: #fff;
     font-family: 'Roboto';
     font-size: 1.1rem;
 }
 
-@keyframes topAni {
+@keyframes topAnimation {
     to {
         background-position: 200%;
     }
@@ -222,7 +222,7 @@ header {
     /* padding: 0.9rem 3rem; */
 }
 
-.nav-links li:nth-child(4) {
+.nav-links li:nth-child(5) {
     text-decoration: underline;
 }
 
