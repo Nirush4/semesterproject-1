@@ -1,25 +1,25 @@
 Community Science Museum
 
-# “Explore together”
+# “visit together”
 
 Come join us at the Community Science Museum where we’re committed to making science accessible to all.
 Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far away to the very building blocks of life itself.
 
 The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.
 
-We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000 different exhibits on the many varied subjects of science to explore. Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home).
+We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000 different exhibits on the many varied subjects of science to visit. Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home).
 
-# Explore
+# visit
 
 ## For kids
 
 Are you a young person looking to learn more about science? Come on down to our museum, there’s plenty to see and do.
 
-You can learn about Newtonian physics from our bumper swing, or why not travel back in time and meet our resident Woolly Mammoth? Our exhibits are designed to be accessible for interested minds, so make sure you come ready to learn and explore.
+You can learn about Newtonian physics from our bumper swing, or why not travel back in time and meet our resident Woolly Mammoth? Our exhibits are designed to be accessible for interested minds, so make sure you come ready to learn and visit.
 
-We also have the Young Stars club which meets once a week on a Saturday between 10:00 and 13:00 where you’ll get to explore and experiment with our team of experts.
+We also have the Young Stars club which meets once a week on a Saturday between 10:00 and 13:00 where you’ll get to visit and experiment with our team of experts.
 
-During the school holidays we run special holiday clubs where you can join other children your age to go on a journey of discovery. Each holiday we pick a new theme to explore. To find out more about the holiday club and how you can join, send us a message.
+During the school holidays we run special holiday clubs where you can join other children your age to go on a journey of discovery. Each holiday we pick a new theme to visit. To find out more about the holiday club and how you can join, send us a message.
 
 ## For teachers
 
@@ -34,7 +34,7 @@ Are you looking to get involved with our team of researchers and academics? Our 
 
 ## Cosmology
 
-Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’, explores the night sky and what we can see and know about the universe around us. We’ll locate the various constellations and galaxies that can be seen and learn a bit about the early navigators who used the stars to travel by.
+visit the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’, visits the night sky and what we can see and know about the universe around us. We’ll locate the various constellations and galaxies that can be seen and learn a bit about the early navigators who used the stars to travel by.
 
 Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the latest exploration of the planets in our solar system.
 
@@ -48,7 +48,7 @@ Discover the origins of life on this planet and how the species we know today ha
 
 From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights into the great wonders of the tiny world.
 
-For many people their life expectancy is much longer and their quality of life much improved, thanks to the growth of our understanding of medicine. Over a series of exhibits we explore the history of medicine and take a look at some major breakthroughs including the discovery of penicillin and the first heart transplant.
+For many people their life expectancy is much longer and their quality of life much improved, thanks to the growth of our understanding of medicine. Over a series of exhibits we visit the history of medicine and take a look at some major breakthroughs including the discovery of penicillin and the first heart transplant.
 
 Many of our great medicinal discoveries have come not only from the lab, but also from observing animals in the wild. Often our fellow creatures have beat us to it.
 
@@ -58,14 +58,14 @@ The information revolution is here and robotics and artificial intelligence are 
 
 ## Ecology
 
-As we learn more and more of the impact humans are having on the planet, the more important it becomes that scientists explore how to create a sustainable future not just for humans but for the whole planet.
+As we learn more and more of the impact humans are having on the planet, the more important it becomes that scientists visit how to create a sustainable future not just for humans but for the whole planet.
 In our ecology section of the museum, we unpack the dangers we currently face including global warming, extinction of species, and pollution. But we also focus on the positive ways we can all contribute to a brighter future.
 
 # Special Events and Exhibitions
 
 ## News
 
-### Visiting Professor of Aeronautics
+### visiting Professor of Aeronautics
 
 It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.
 
@@ -77,7 +77,7 @@ Get your family together for an exciting night in the museum as you sleep over b
 
 On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum. It’s a series of installations that allow visitors to experience the power of the elements as we harness them. From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able to use and control wind to create power.
 
-# Visit
+# visit
 
 ## Location
 
@@ -109,7 +109,7 @@ There is a café attached to the museum where you can get light lunches, soft dr
 
 ## Shop
 
-Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.
+Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to visit science even after you’ve left the museum.
 
 # Get Involved
 
