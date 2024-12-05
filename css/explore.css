@@ -138,10 +138,10 @@ header {
     /* background-repeat: round; */
     background-image: linear-gradient(45deg, #074191, #006473, #0290e2, #006473, #074191);
     background-size: 200% auto;
-    animation: topAni 4s linear infinite;
+    animation: topAnimation 4s linear infinite;
 }
 
-@keyframes topAni {
+@keyframes topAnimation {
     to {
         background-position: 200%;
     }
