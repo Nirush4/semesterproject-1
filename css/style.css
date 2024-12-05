@@ -82,24 +82,25 @@ header {
     padding: 0.5rem 8%;
     justify-content: space-between;
     align-items: center;
-    /* background-color: var(--color-header-top); */
-    background-image: linear-gradient(45deg, #074191, #006473, #0082cd, #006473, #074191);
+    background-color: var(--color-header-top);
+    /* background-image: linear-gradient(45deg, #074191, #006473, #0082cd, #006473, #074191);
     background-size: 200% auto;
-    animation: topAni 4s linear infinite;
+    animation: topAnimation 4s linear infinite; */
     color: #fff;
     font-family: 'Roboto';
     font-size: 1.1rem;
 }
 
-@keyframes topAni {
+/* @keyframes topAnimation {
     to {
         background-position: 200%;
     }
-}
+} */
 
 .header-login-main {
     display: flex;
     gap: 1.5rem;
+    transition: all 0.2s ease-in-outs;
 }
 
 .header-login-main a {
@@ -112,11 +113,26 @@ header {
     gap: 1rem;
 }
 
+.header-member:hover>span {
+    color: var(--get-ticket-color);
+}
+
+.header-member:hover>i {
+    color: var(--get-ticket-color);
+}
+
 .header-view-cart {
     display: flex;
     gap: 1rem;
 }
 
+.header-view-cart:hover>span {
+    color: var(--get-ticket-color);
+}
+
+.header-view-cart:hover>i {
+    color: var(--get-ticket-color);
+}
 
 .desktop-nav {
     display: flex;
@@ -134,12 +150,20 @@ header {
     align-items: center;
     width: 100%;
     height: 6.5rem;
-    background-color: var(--color-primary);
     padding: 1.5rem 8%;
-    background-image: url(/images/header-foreground-image.svg);
-    background-size: cover;
-    background-repeat: round;
+    /* background-color: var(--color-primary); */
+    /* background-image: url(/images/header-foreground-image.svg); */
+    /* background-size: cover; */
+    /* background-repeat: round; */
+    background-image: linear-gradient(45deg, #074191, #006473, #0290e2, #006473, #074191);
+    background-size: 200% auto;
+    animation: topAni 4s linear infinite;
+}
 
+@keyframes topAni {
+    to {
+        background-position: 200%;
+    }
 }
 
 .logo {
@@ -425,11 +449,34 @@ header {
     }
 }
 
+@media (width<450px) {
+    .logo-div-right {
+        font-size: 1rem;
+        flex: 1 1 100%;
+        gap: 0;
+    }
+
+    .get-ticket-div {
+        flex: 1 1 50%;
+        justify-content: center;
+    }
+
+    .join-today-div {
+        flex: 1 1 50%;
+        background-color: var(--color-header-top);
+        color: #fff;
+    }
+
+}
+
 /*imp! SECTION-HERO */
 
 .hero-img {
     width: 100%;
-    height: 100%;
+    height: 55rem;
+    position: sticky;
+    top: 0;
+    z-index: -1;
 
 }
 
@@ -461,7 +508,7 @@ header {
 
 .hero-text-div {
     position: absolute;
-    inset: 65% 10% auto 10%;
+    inset: 50% 10% auto 10%;
     justify-content: center;
     text-align: center;
     display: flex;
@@ -473,6 +520,7 @@ header {
     span {
         font-family: 'Roboto';
         color: #fff;
+        text-shadow: 3px 3px var(--color-header-top);
     }
 
     h1 {
@@ -482,6 +530,7 @@ header {
         font-weight: 600;
         padding-bottom: 2rem;
         color: #fff;
+        text-shadow: 3px 3px var(--color-header-top);
     }
 
     a {
@@ -489,7 +538,7 @@ header {
         color: #000000;
         background-color: #fff;
         font-family: 'Roboto';
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         padding: 0.7rem 2.5rem;
         border-radius: 0.3rem;
         font-weight: 500;
@@ -503,11 +552,6 @@ header {
 }
 
 @media (width<1260px) {
-    .hero-text-div {
-        position: absolute;
-        inset: 22rem 10% auto 10%;
-    }
-
     .hero-text-div a {
         font-size: 1.3rem;
     }
@@ -521,34 +565,11 @@ header {
         border-radius: 0.2rem;
     }
 
-    .hero-img video {
-        height: 35rem;
-    }
-
     .hero-content span {
         font-size: 1.5rem;
     }
 }
 
-@media (width<450px) {
-    .logo-div-right {
-        font-size: 1rem;
-        flex: 1 1 100%;
-        gap: 0;
-    }
-
-    .get-ticket-div {
-        flex: 1 1 50%;
-        justify-content: center;
-    }
-
-    .join-today-div {
-        flex: 1 1 50%;
-        background-color: var(--color-header-top);
-        color: #fff;
-    }
-
-}
 
 @media (width<600px) {
     .hero-img img {
