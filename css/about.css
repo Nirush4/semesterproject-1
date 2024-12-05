@@ -138,10 +138,10 @@ header {
     /* background-repeat: round; */
     background-image: linear-gradient(45deg, #074191, #006473, #0290e2, #006473, #074191);
     background-size: 200% auto;
-    animation: topAni 4s linear infinite;
+    animation: topAnimation 4s linear infinite;
 }
 
-@keyframes topAni {
+@keyframes topAnimation {
     to {
         background-position: 200%;
     }
@@ -588,6 +588,48 @@ header {
     padding-bottom: 0;
 }
 
+@media (width<850px) {
+    .section-2-about {
+        padding: 3rem 8%;
+    }
+
+    .section-2-about h2 {
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .section-2-about h3 {
+        font-size: 1.8rem;
+        padding-bottom: 2rem;
+    }
+
+    .section-2-about p {
+        font-size: 1.1rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media (width<600px) {
+    .section-2-about {
+        padding: 2rem 8%;
+    }
+
+    .section-2-about h2 {
+        font-size: 1.3em;
+        padding-bottom: 1rem;
+    }
+
+    .section-2-about h3 {
+        font-size: 1.1rem;
+        padding-bottom: 1rem;
+    }
+
+    .section-2-about p {
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
 /*imp! SECTION-3 */
 
 .section-3-about {
@@ -641,7 +683,7 @@ header {
     position: absolute;
     bottom: -2px;
     left: 0;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .section-3-about-component-right h2::after {
@@ -652,7 +694,7 @@ header {
     position: absolute;
     bottom: -2px;
     left: 0;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .section-3-about-component-left:hover>h2::after {
@@ -683,6 +725,41 @@ header {
     background-color: transparent;
 }
 
+@media (width<1080px) {
+    .section-3-about-component {
+        flex-direction: column;
+    }
+
+    .section-3-about-component-left {
+        padding-bottom: 3rem;
+        border-bottom: 0.5px solid #fff;
+    }
+}
+
+@media (width<600px) {
+
+    .section-3-about-component {
+        padding: 2rem 8%;
+        gap: 2rem;
+    }
+
+    .section-3-about-component-left {
+        padding-bottom: 2rem;
+    }
+
+    .section-3-about-component-left,
+    .section-3-about-component-right {
+
+        h2 {
+            font-size: 1.3rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+    }
+
+}
 
 /*imp! SECTION-4 */
 
