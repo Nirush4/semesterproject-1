@@ -927,6 +927,7 @@ header {
     flex: 1 1 50%;
     overflow: hidden;
     height: 27rem;
+    text-decoration: none;
 }
 
 .section-3-component-2-right {
