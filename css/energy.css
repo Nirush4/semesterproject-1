@@ -130,6 +130,7 @@ header {
     gap: 0.5rem;
     background-color: var(--get-ticket-color);
     padding: 0.7rem 1.2rem;
+    text-decoration: none;
     color: #000000;
     font-weight: 600;
     transition: all 0.2s ease-in-out;
