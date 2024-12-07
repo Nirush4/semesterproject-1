@@ -8,7 +8,7 @@
         content="The Community Science Museum collects, studies, conserves, and presents significant works of science across time and cultures in order to connect all people to creativity, knowledge, ideas, and one another." />
     <title>The Community Science Museum|visit</title>
     <link rel="shortcut icon" href="/logo/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="/css/entry.css">
+    <link rel="stylesheet" href="/css/payment-1.css">
 
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css'
         integrity='sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw=='
@@ -89,37 +89,42 @@
         </nav>
     </header>
 
-    <main id="main">
+    <main>
 
         <!--imp! SECTION-1 -->
 
         <div class="breadcrumb">
             <i class="fa-solid fa-arrow-left"></i>
-            <a href="/energy.html">Back</a>
+            <a href="/entry.html">Back</a>
         </div>
 
-        <div class="progress-bar">
-            <div class="progress-bar-black-container">
-                <div class="progress-bar-text">Order tickets</div>
-                <div class="progress-bar-dobbel-container">
-                    <div class="progress-bar-black">
-                        <div class="c-dot-black"></div>
+        <div class="c-line-progress">
+            <div class="c-line-container">
+                <div class="c-line-black-container">
+                    <div class="c-line-text">Order tickets
                     </div>
-                    <div class="progress-bar-filler"></div>
+                    <div class="c-line-checked-container">
+                        <div class="c-line-checked">
+                            <div class="c-dot-checked"></div>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="progress-bar-grey-container">
-                <div class="progress-bar-text">Payment</div>
-                <div class="progress-bar-grey">
-                    <div class="c-dot-grey"></div>
+                <div class="c-line-black-container">
+                    <div class="c-line-text">Payment</div>
+                    <div class="c-line-dobbel-container">
+                        <div class="c-line-black">
+                            <div class="c-dot-black"></div>
+                        </div>
+                        <div class="c-line-filler"></div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="progress-bar-grey-container">
-                <div class="progress-bar-text">Success</div>
-                <div class="progress-bar-grey">
-                    <div class="c-dot-grey"></div>
+                <div class="c-line-grey-container">
+                    <div class="c-line-text">Success</div>
+                    <div class="c-line-grey">
+                        <div class="c-dot-grey"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -127,126 +132,52 @@
 
         <!--imp! SECTION-2 -->
 
-        <div class="section-2-entry">
-            <div class="section-2-entry-main-coponent">
-                <div class="section-2-entry-left">
-                    <h1>Order Tickets</h1>
+        <div class="section-2-payment">
+            <form action="">
+                <div class="section-2-payment-coponent">
 
-                    <div class="ticket-age-list">
-                        <div class="ticket-age">
-                            <p>Adult</p>
-                            <p>190.00 Kr</p>
-                        </div>
-                        <div class="ticket-count">
-                            <i class="fa-solid fa-minus"></i>
-                            <span>1</span>
-                            <i class="fa-solid fa-plus"></i>
-                        </div>
-                    </div>
-                    <div class="ticket-age-list">
-                        <div class="ticket-age">
-                            <p>Adult</p>
-                            <p>190.00 Kr</p>
-                        </div>
-                        <div class="ticket-count">
-                            <i class="fa-solid fa-minus"></i>
-                            <span>1</span>
-                            <i class="fa-solid fa-plus"></i>
+                    <div class="section-2-payment-left">
+                        <h1>Payment</h1>
+                        <span>Customer information</span>
+                        <div class="section-2-payment-form">
+                            <label for="">Full Name<span>*</span></label><br>
+                            <input type="text" name="full-name" placeholder="Enter your name" required><br>
+                            <label for="">Mobile Number</label><br>
+                            <input type="number" name="mobile-number" placeholder="Enter your mobile number"><br>
+                            <label for="">Email<span>*</span></label><br>
+                            <input type="text" name="email" placeholder="Enter your email" required><br>
                         </div>
                     </div>
-                    <div class="ticket-age-list">
-                        <div class="ticket-age">
-                            <p>Adult</p>
-                            <p>190.00 Kr</p>
+                    <div class="section-2-payment-right">
+                        <div class="section-2-payment-img-div">
+                            <img src="/images/payment-1/1.jpg"
+                                alt="A picture of a student exploring the enery in an emergency exhibit at the museum.">
                         </div>
-                        <div class="ticket-count">
-                            <i class="fa-solid fa-minus"></i>
-                            <span>0</span>
-                            <i class="fa-solid fa-plus"></i>
+                        <div class="section-2-payment-details">
+                            <span>Exhibitions</span>
+                            <h2>Energy in an emergency</h2>
+                            <p>Through January 2, 2025</p>
+                            <p>The Community Science Museum</p>
+                            <div class="section-2-payment-amount">
+                                <div class="section-2-payment-amount-left">
+                                    <p>Adult x1</p>
+                                    <p>Child 4-17 x1</p>
+                                </div>
+                                <div class="section-2-payment-amount-right">
+                                    <p>190.00 Kr</p>
+                                    <p>125.00 Kr</p>
+                                </div>
+                            </div>
+                            <div class="section-2-payment-total">
+                                <p>Total:</p>
+                                <p>315.00 Kr</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="ticket-age-list">
-                        <div class="ticket-age">
-                            <p>Adult</p>
-                            <p>190.00 Kr</p>
-                        </div>
-                        <div class="ticket-count">
-                            <i class="fa-solid fa-minus"></i>
-                            <span>0</span>
-                            <i class="fa-solid fa-plus"></i>
-                        </div>
-                    </div>
-                    <div class="ticket-age-list">
-                        <div class="ticket-age">
-                            <p>Adult</p>
-                            <p>190.00 Kr</p>
-                        </div>
-                        <div class="ticket-count">
-                            <i class="fa-solid fa-minus"></i>
-                            <span>0</span>
-                            <i class="fa-solid fa-plus"></i>
-                        </div>
-                    </div>
 
-                </div>
-                <div class="calendar">
-                    <div class="calendar-header">
-                        <i class="fa-solid fa-angle-left"></i>
-                        <span class="year">January, 2025</span>
-                        <i class="fa-solid fa-angle-right"></i>
-                    </div>
-
-                    <div class="calendar-body">
-                        <div class="calendar-week-day">
-                            <div class="week">Sun</div>
-                            <div class="week">Mon</div>
-                            <div class="week">Tue</div>
-                            <div class="week">Thu</div>
-                            <div class="week">Fri</div>
-                            <div class="week">Sat</div>
-                            <div class="week">Sun</div>
-                        </div>
-                        <div class="calendar-days">
-                            <div class="number-pre">30</div>
-                            <div class="number-pre">31</div>
-                            <div class="number">1</div>
-                            <div class="number">2</div>
-                            <div class="number">3</div>
-                            <div class="number">4</div>
-                            <div class="number">5</div>
-                            <div class="number">6</div>
-                            <div class="number">7</div>
-                            <div class="number">8</div>
-                            <div class="number">9</div>
-                            <div class="number">10</div>
-                            <div class="number">11</div>
-                            <div class="number">12</div>
-                            <div class="number">13</div>
-                            <div class="number">14</div>
-                            <div class="active-date">15</div>
-                            <div class="number">16</div>
-                            <div class="number">17</div>
-                            <div class="number">18</div>
-                            <div class="number">19</div>
-                            <div class="number">20</div>
-                            <div class="number">21</div>
-                            <div class="number">22</div>
-                            <div class="number">23</div>
-                            <div class="number">24</div>
-                            <div class="number">25</div>
-                            <div class="number">26</div>
-                            <div class="number">27</div>
-                            <div class="number">28</div>
-                            <div class="number">29</div>
-                            <div class="number">30</div>
-                            <div class="number">31</div>
-                            <div class="number-pre">1</div>
-                            <div class="number-pre">2</div>
-                        </div>
                     </div>
                 </div>
-            </div>
-            <a class="go-to-payment" href="/payment-1.html">Go to payment</a>
+                <input class="go-to-payment" type="submit" value="Continue to payment method">
+            </form>
         </div>
 
     </main>
