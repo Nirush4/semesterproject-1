@@ -8,7 +8,7 @@
         content="The Community Science Museum collects, studies, conserves, and presents significant works of science across time and cultures in order to connect all people to creativity, knowledge, ideas, and one another." />
     <title>The Community Science Museum|visit</title>
     <link rel="shortcut icon" href="/logo/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="/css/payment-mothod.css">
+    <link rel="stylesheet" href="/css/paynow.css">
 
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css'
         integrity='sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw=='
@@ -95,7 +95,7 @@
 
         <div class="breadcrumb">
             <i class="fa-solid fa-arrow-left"></i>
-            <a href="/customer-info.html">Back</a>
+            <a href="/payment-mothod.html">Back</a>
         </div>
 
         <div class="c-line-progress">
@@ -132,79 +132,41 @@
 
         <!--imp! SECTION-2 -->
 
-        <section class="c-form-container">
-            <h1 class="c-pay-header">Choose payment method</h1>
-            <form action="paynow.html" aria-label="link you to card page" class="c-payment">
-                <div class="c-payment-container">
+        <section class="c-card">
+            <div class="c-info-container">
+                <div class="c-visa-img-container">
+                    <img src="/images/paynow/card.png" alt="visa card image" />
+                </div>
 
-                    <div class="c-all-cards-container">
-                        <div class="c-card-container">
-                            <div class="c-checkbox-container">
-                                <input type="checkbox" name="visa" id="visa" class="c-checkbox" required />
-                            </div>
-                            <div class="c-card-name-container">
-                                <div class="c-card-name">Visa/Mastercard</div>
-                            </div>
-                            <div class="c-card-img-container">
-                                <img src="/images/payment-method/visa.jpg" alt="visa card image" />
-                                <img src="/images/payment-method/master.jpg" alt="Mastercard image" />
-                            </div>
+                <form action="success.html" aria-label="form link to success page" class="c-card-input-container">
+                    <div class="c-input">
+                        <input type="number" id="input" placeholder="4466 7328 2390 4571" required />
+                        <label class="c-label">Card Number</label>
+                    </div>
+
+                    <div class="c-input">
+                        <input type="text" id="input" placeholder="Lucas Las" required />
+                        <label class="c-label">Cardholder Name</label>
+                    </div>
+
+                    <div class="c-date-container">
+                        <div class="c-input">
+                            <input type="month" id="input" placeholder="august 2024" required />
+                            <label class="c-label">Expiry Date / Valid Thru</label>
                         </div>
 
-                        <div class="c-card-container">
-                            <div class="c-checkbox-container">
-                                <input type="checkbox" name="visa" id="visa" class="c-checkbox" />
-                            </div>
-                            <div class="c-card-name-container">
-                                <div class="c-card-name">Paypal</div>
-                            </div>
-                            <div class="c-card-img-container">
-                                <img src="/images/payment-method/paypal.jpg" alt="paypal image" />
-                            </div>
-                        </div>
-
-                        <div class="c-card-container">
-                            <div class="c-checkbox-container">
-                                <input type="checkbox" name="visa" id="visa" class="c-checkbox" />
-                            </div>
-                            <div class="c-card-name-container">
-                                <div class="c-card-name">Klarna</div>
-                            </div>
-                            <div class="c-card-img-container">
-                                <img src="/images/payment-method/klarna.jpg" alt="klarna image" />
-                            </div>
-                        </div>
-
-                        <div class="c-card-container">
-                            <div class="c-checkbox-container">
-                                <input type="checkbox" name="visa" id="visa" class="c-checkbox" />
-                            </div>
-                            <div class="c-card-name-container">
-                                <div class="c-card-name">American Express</div>
-                            </div>
-                            <div class="c-card-img-container">
-                                <img src="/images/payment-method/american-ex.jpg" alt="american express card image" />
-                            </div>
-                        </div>
-
-                        <div class="c-card-container">
-                            <div class="c-checkbox-container">
-                                <input type="checkbox" name="visa" id="visa" class="c-checkbox" />
-                            </div>
-                            <div class="c-card-name-container">
-                                <div class="c-card-name">Vipps</div>
-                            </div>
-                            <div class="c-card-img-container">
-                                <img src="/images/payment-method/vipps.jpg" alt="vipps image" />
-                            </div>
+                        <div class="c-input">
+                            <input type="number" id="input" placeholder="346" required />
+                            <label class="c-label">CVV / CVC</label>
                         </div>
                     </div>
 
                     <div class="c-btn-container">
-                        <input type="submit" name="submit" id="submit" value="Submit" aria-label="Links to card page" />
+                        <input type="submit" name="submit" id="submit" value="Pay now"
+                            aria-label="submit link to success page" />
                     </div>
-                </div>
-            </form>
+                </form>
+            </div>
         </section>
 
     </main>
