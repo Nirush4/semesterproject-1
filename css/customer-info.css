@@ -422,20 +422,16 @@ header {
 }
 
 .breadcrumb a {
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-top: 2rem;
     text-decoration: none;
     color: #000000;
 }
 
-.breadcrumb a {
-    font-family: 'Roboto';
-    font-size: 1.2rem;
-    font-size: 400;
-    padding-top: 2rem;
-    color: #000000;
-}
-
 .breadcrumb a:hover {
-    color: var(--color-primary);
+    color: var(--color-gray);
 }
 
 @media (width<850px) {
