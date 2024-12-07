@@ -584,109 +584,153 @@ header {
     }
 }
 
-
 /*imp! SECTION-2 */
 
-.c-form-container {
-    padding: 0 8%;
-}
-
-.c-payment {
+.c-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 3rem 0rem 5rem;
-}
+    padding: 0 8% 5rem;
 
-.c-payment-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0.7rem 1rem;
-    border: 1px solid black;
-    border-radius: 0.4rem;
-    width: 100%;
-    max-width: 550px;
-}
-
-.c-pay-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-family: 'Roboto';
-    font-size: 1.6rem;
-    font-weight: 500;
-}
-
-.c-all-cards-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 1rem;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem 0rem;
-}
-
-.c-card-container {
-    display: flex;
-    flex: 1 1 100%;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid black;
-    padding: 0.2rem 0.4rem;
-    border-radius: 10px;
-    width: 100%;
-    gap: 0.5rem;
-}
-
-.c-checkbox-container {
-    display: flex;
-    flex: 1 1 10%;
-    justify-content: baseline;
-    align-items: center;
-}
-
-.c-checkbox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 25px;
-    height: 25px;
-    max-width: 45px;
-    max-height: 45px;
-    cursor: pointer;
-}
-
-.c-card-name-container {
-    display: flex;
-    flex: 1 1 70%;
-    padding-left: 1%;
-    align-items: center;
-
-    .c-card-name {
+    .c-info-container {
         display: flex;
-        color: #021526;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0.25rem;
+        border: 1px solid #000000;
+        border-radius: 0.6rem;
+        width: 100%;
+        max-width: 34.3rem;
+        text-align: center;
+
+        img {
+            width: 65%;
+            height: 100%;
+        }
+    }
+
+
+    .c-card-number {
+        display: flex;
+        flex-direction: row;
+        padding: 2rem 0rem;
+        color: #fff;
         font-family: 'Roboto';
         font-size: 1.1rem;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.5px;
+        text-transform: capitalize;
+    }
+
+    .c-card-holder-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 0.5rem;
+
+        .c-card-holder-text {
+            display: flex;
+            font-family: 'Roboto';
+            color: #fff;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .c-expire-text {
+            display: flex;
+            font-family: 'Roboto';
+            color: #fff;
+            font-size: 1.1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+    .c-card-name-date-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .c-card-name {
+            display: flex;
+            font-family: 'Roboto';
+            color: #fff;
+            font-size: 1.1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .c-card-date {
+            display: flex;
+            font-family: 'Roboto';
+            color: #fff;
+            font-size: 1.1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
     }
 }
 
-.c-card-img-container {
+.c-card-input-container {
     display: flex;
-    flex: 1 1 20%;
-    justify-content: end;
+    flex-direction: column;
+    width: 100%;
+    gap: 3.5rem;
+    padding: 2rem 8% 1rem;
+}
 
-    img {
-        height: 2rem;
-    }
+.c-input {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
 
+input#input {
+    position: absolute;
+    width: 100%;
+    outline: none;
+    height: 45px;
+    border-radius: 0.3rem;
+    background: transparent;
+    border: 1px solid #000000;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    padding-left: 0.5rem;
+}
+
+.c-label {
+    display: flex;
+    transform: translate(15px, -10px);
+    background-color: #ffffff;
+    padding: 0 0.2rem;
+    font-family: 'Roboto';
+    font-size: 1.1rem;
+}
+
+.c-date-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+.c-calendar {
+    position: absolute;
+    left: 220px;
+    top: 10px;
+    font-size: 25px;
+    cursor: pointer;
 }
 
 .c-btn-container {
@@ -699,18 +743,17 @@ header {
 }
 
 input#submit {
-    text-decoration: none;
     font-family: 'Roboto';
     font-size: 1.2rem;
-    font-weight: 500;
-    padding: 0.8rem 3rem;
-    margin-bottom: 1.5rem;
-    border-radius: 0.3rem;
-    background-color: #000000;
+    font-weight: 400;
     color: #fff;
-    transition: all 0.2s ease-in-out;
+    background-color: #000000;
+    padding: 0.8rem 3rem;
+    border-radius: 0.3rem;
     border: transparent;
+    transition: all 0.2s ease-in-out;
     cursor: pointer;
+
 }
 
 input#submit:hover {
@@ -720,48 +763,40 @@ input#submit:hover {
 @media (width<600px) {
 
     .c-line-progress {
-        padding-bottom: 3rem;
-    }
+        padding: 0 8% 3rem;
 
-    .c-line-progress .c-line-container .c-line-black-container {
-        .c-line-text {
-            font-size: 0.95rem;
-        }
+        & .c-line-container {
+            & .c-line-black-container {
+                .c-line-text {
+                    font-size: 0.95rem;
+                }
+            }
 
-    }
-
-    .c-line-progress .c-line-container .c-line-grey-container {
-        .c-line-text {
-            font-size: 0.95rem;
-        }
-    }
-
-    .c-pay-header {
-        font-size: 1.2rem;
-    }
-
-    .c-payment-container {
-        padding: 0.7rem 0.5rem;
-
-        .c-all-cards-container {
-            padding: 1rem 0;
+            & .c-line-grey-container {
+                .c-line-text {
+                    font-size: 0.95rem;
+                }
+            }
         }
     }
 
-    .c-card-name-container {
-        flex: 1 1 80%;
-    }
-
-    .c-card-img-container {
-        flex: 1 1 10%;
-
-        img {
-            height: 1.5rem;
+    .c-card {
+        & .c-info-container {
+            img {
+                width: 85%;
+            }
         }
-
     }
 
-    .c-card-name-container .c-card-name {
+    .c-card-input-container {
+        padding: 2rem 5% 0rem;
+    }
+
+    .c-label {
+        font-size: 1rem;
+    }
+
+    input#input {
         font-size: 1rem;
     }
 
@@ -769,11 +804,8 @@ input#submit:hover {
         font-size: 1.1rem;
         padding: 0.5rem 1rem;
         border-radius: 0.2rem;
-        margin-bottom: 0.5rem;
     }
 }
-
-
 
 /*imp! FOOTER */
 
