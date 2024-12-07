@@ -444,99 +444,141 @@ header {
     }
 }
 
-.progress-bar {
+.c-line-progress {
     display: flex;
     width: 100%;
     padding: 0 8% 5rem;
 
-    .progress-bar-black-container {
+    .c-line-container {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        flex: 1 1 auto;
         width: 100%;
 
-        .progress-bar-text {
+        .c-line-checked-container {
             display: flex;
-            color: #000;
-            font-family: 'Roboto';
-            font-size: 1.3rem;
-            font-style: normal;
-            font-weight: 500;
-            padding-bottom: 1rem;
-        }
-
-        .progress-bar-dobbel-container {
-            display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             flex: 1 1 auto;
             width: 100%;
 
-            .progress-bar-black {
+            .c-line-text {
                 display: flex;
-                justify-content: end;
+                color: #000;
+                font-family: 'Roboto';
+                font-size: 1.3rem;
+                font-style: normal;
+                font-weight: 500;
+                padding-bottom: 1rem;
+            }
+
+            .c-line-checked {
+                display: flex;
+                justify-content: center;
                 align-items: center;
                 border-bottom: 3px solid #000000;
-                flex: 1 1 auto;
                 width: 100%;
                 position: relative;
 
-                .c-dot-black {
+                .c-dot-checked {
                     position: absolute;
-                    width: 16px;
-                    height: 16px;
+                    width: 15px;
+                    height: 15px;
                     border-radius: 100%;
                     background-color: #000000;
-                    right: -8px;
                 }
             }
+        }
 
-            .progress-bar-filler {
+        .c-line-black-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex: 1 1 auto;
+            width: 100%;
+
+            .c-line-text {
                 display: flex;
+                color: #000;
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 500;
+                padding-bottom: 1rem;
+                font-size: 1.3rem;
+            }
+
+            .c-line-dobbel-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex: 1 1 auto;
+                width: 100%;
+
+                .c-line-black {
+                    display: flex;
+                    justify-content: end;
+                    align-items: center;
+                    border-bottom: 3px solid #000000;
+                    flex: 1 1 auto;
+                    width: 100%;
+                    position: relative;
+
+                    .c-dot-black {
+                        position: absolute;
+                        width: 16px;
+                        height: 16px;
+                        border-radius: 100%;
+                        background-color: #000000;
+                        right: -8px;
+                    }
+                }
+
+                .c-line-filler {
+                    display: flex;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-bottom: 2px solid #aaa9a9;
+                    width: 100%;
+                    flex: 1 1 auto;
+                }
+            }
+        }
+
+        .c-line-grey-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex: 1 1 auto;
+            width: 100%;
+
+            .c-line-text {
+                display: flex;
+                color: #aaa9a9;
+                font-family: 'Roboto';
+                font-size: 1.3rem;
+                font-style: normal;
+                font-weight: 500;
+                padding-bottom: 1rem;
+            }
+
+            .c-line-grey {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 border-bottom: 2px solid #aaa9a9;
                 width: 100%;
-                flex: 1 1 auto;
-            }
-        }
-    }
+                position: relative;
 
-    .progress-bar-grey-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        flex: 1 1 auto;
-        width: 100%;
-
-        .progress-bar-text {
-            display: flex;
-            color: #aaa9a9;
-            font-family: 'Roboto';
-            font-size: 1.3rem;
-            font-style: normal;
-            font-weight: 500;
-            padding-bottom: 1rem;
-        }
-
-        .progress-bar-grey {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-bottom: 2px solid #aaa9a9;
-            width: 100%;
-            position: relative;
-
-            .c-dot-grey {
-                position: absolute;
-                width: 15px;
-                height: 15px;
-                border-radius: 100%;
-                background-color: #aaa9a9;
+                .c-dot-grey {
+                    position: absolute;
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 100%;
+                    background-color: #aaa9a9;
+                    ;
+                }
             }
         }
     }
@@ -545,417 +587,184 @@ header {
 
 /*imp! SECTION-2 */
 
+.c-form-container {
+    padding: 0 8%;
+}
 
-.section-2-entry {
-    padding: 0 8% 5rem;
+.c-payment {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-
-    .go-to-payment {
-        text-decoration: none;
-        font-family: 'Roboto';
-        font-size: 1.5rem;
-        font-weight: 500;
-        padding: 0.8rem 3rem;
-        border-radius: 0.4rem;
-        background-color: #000000;
-        color: #fff;
-        transition: all 0.2s ease-in-out;
-
-        &:hover {
-            background-color: var(--color-gray);
-        }
-    }
+    width: 100%;
+    padding: 3rem 0rem;
 }
 
-.section-2-entry-main-coponent {
+.c-payment-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.7rem 1rem;
+    border: 1px solid black;
+    border-radius: 0.4rem;
+    width: 100%;
+    max-width: 550px;
+}
+
+.c-pay-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.c-all-cards-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0rem;
+}
+
+.c-card-container {
     display: flex;
     flex: 1 1 100%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 0.2rem 0.4rem;
+    border-radius: 10px;
     width: 100%;
-    height: auto;
-    justify-content: space-between;
-    gap: 8rem;
-    padding-bottom: 4rem;
+    gap: 0.5rem;
+}
 
-    .section-2-entry-left {
+.c-checkbox-container {
+    display: flex;
+    flex: 1 1 10%;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.c-checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    max-width: 45px;
+    max-height: 45px;
+    cursor: pointer;
+}
+
+.c-card-name-container {
+    display: flex;
+    flex: 1 1 70%;
+    padding-left: 1%;
+    align-items: center;
+
+    .c-card-name {
         display: flex;
-        flex-direction: column;
-        flex: 1 1 40%;
-        background-color: var(--color-tertiary);
-        padding: 3rem;
-        gap: 2rem;
-
-        h1 {
-            font-family: 'Roboto';
-            font-size: 2rem;
-            font-weight: 500;
-            padding-bottom: 2rem;
-        }
-
-        .ticket-age-list {
-            display: flex;
-            justify-content: space-between;
-
-            .ticket-age {
-                display: flex;
-                flex-direction: column;
-                gap: 0.5rem;
-
-                p {
-                    font-size: 1.4rem;
-                    font-weight: 400;
-                }
-            }
-
-            .ticket-age p:nth-child(1) {
-                font-weight: 500;
-            }
-
-            .ticket-count {
-                display: flex;
-                gap: 1rem;
-                align-items: center;
-
-                i {
-                    font-size: 1.3rem;
-                    width: 2.5rem;
-                    height: 2.5rem;
-                    border-radius: 100%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    background-color: red;
-                    cursor: pointer;
-                    transition: all 0.2s ease-in-out;
-
-                    &:hover {
-                        scale: 105%;
-                    }
-                }
-
-                .fa-minus {
-                    background-color: var(--color-gray);
-                    color: #fff;
-                }
-
-                .fa-plus {
-                    background-color: #000000;
-                    color: #fff;
-                }
-
-                span {
-                    font-family: 'Roboto';
-                    font-size: 1.5rem;
-                }
-            }
-        }
-
-    }
-
-    .calendar {
-        display: flex;
-        flex-direction: column;
-        flex: 1 1 60%;
-        background-color: var(--color-tertiary);
-
-        .calendar-header {
-            padding: 1.5rem 3rem;
-            gap: 6rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: var(--color-header-top);
-            color: #fff;
-
-            span {
-                font-family: 'Roboto';
-                font-size: 1.5rem;
-                cursor: pointer;
-            }
-
-            i {
-                font-size: 1.5rem;
-                cursor: pointer;
-            }
-
-        }
-
-        .calendar-body {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            padding: 1rem;
-
-
-            .calendar-week-day {
-                display: flex;
-                justify-content: space-around;
-                gap: 1rem;
-
-                .week {
-                    font-family: 'Roboto';
-                    font-size: 1.2rem;
-                    font-weight: 500;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    height: 5rem;
-                    /* width: 5rem; */
-                }
-            }
-        }
-
-        .calendar-days {
-            display: grid;
-            grid-template-columns: repeat(7, 1fr);
-            grid-template-rows: repeat(5, 1fr);
-            justify-content: center;
-            gap: 1rem;
-
-            .number,
-            .number-pre,
-            .active-date {
-                font-family: 'Roboto';
-                font-size: 1.2rem;
-                font-weight: 500;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                height: 4.5rem;
-                /* width: 4.5rem; */
-                border-radius: 0.4rem;
-                transition: all 0.2s ease-in-out;
-                cursor: pointer;
-            }
-
-            .number-pre {
-                border: none;
-                color: var(--color-gray);
-                transition: all 0.2s ease-in-out;
-            }
-
-            .active-date {
-                background-color: var(--color-primary);
-                color: #fff;
-            }
-
-            .number-pre:hover,
-            .number:hover {
-                border: 2px solid var(--color-gray);
-            }
-        }
+        color: #021526;
+        font-family: 'Roboto';
+        font-size: 1.1rem;
+        font-style: normal;
+        font-weight: 400;
     }
 }
 
+.c-card-img-container {
+    display: flex;
+    flex: 1 1 20%;
+    justify-content: end;
 
-@media (width<1260px) {
-    .section-2-entry-main-coponent {
-        gap: 3rem;
-
-        .section-2-entry-left {
-            padding: 2rem;
-
-            h1 {
-                font-size: 1.7rem;
-            }
-
-            .ticket-age p {
-                font-size: 1.2rem;
-            }
-
-            .ticket-age-list {
-
-                .ticket-age {
-
-                    p {
-                        font-size: 1.2rem;
-                    }
-                }
-            }
-
-            .ticket-count {
-
-                i {
-                    font-size: 1.3rem;
-                    height: 2rem;
-                }
-
-                span {
-                    font-size: 1.2rem;
-                }
-            }
-
-            .calendar {
-
-                .calendar-header {
-                    gap: 5rem;
-
-                    span {
-                        font-size: 1.3rem;
-                    }
-
-                    i {
-                        font-size: 1.3rem;
-                    }
-
-                }
-            }
-        }
-
-
+    img {
+        height: 2rem;
     }
+
 }
 
-@media (width<1100px) {
-    .section-2-entry-main-coponent {
-        flex-direction: column;
+.c-btn-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+}
 
-        .calendar {
+input#submit {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.8rem 2.5rem;
+    border-radius: 0.3rem;
+    background-color: #000000;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+    border: transparent;
+    cursor: pointer;
+}
 
-            .calendar-header {
-                gap: 7rem;
-            }
-
-            .calendar-body {
-
-                .calendar-week-day {
-                    display: grid;
-                    grid-template-columns: repeat(7, 1fr);
-                    justify-content: center;
-                    gap: 0.2rem;
-
-                    .week {
-                        height: 2.7rem;
-
-                    }
-                }
-            }
-        }
-    }
+input#submit:hover {
+    background-color: var(--color-gray);
 }
 
 @media (width<600px) {
-    .section-2-entry {
-        padding: 0 8% 3rem;
-    }
 
-    .progress-bar {
+    .c-line-progress {
         padding-bottom: 3rem;
-
-        .progress-bar-black-container,
-        .progress-bar-grey-container {
-
-            .progress-bar-text {
-                font-size: 0.95rem;
-            }
-
-        }
     }
 
-    .section-2-entry-main-coponent {
-        gap: 3rem;
-        padding-bottom: 2rem;
-
-        .section-2-entry-left {
-            padding: 1rem;
-
-            h1 {
-                font-size: 1.4rem;
-                padding-bottom: 0;
-            }
-
-            .ticket-age-list {
-
-                .ticket-age {
-
-                    p {
-                        font-size: 1.1rem;
-                    }
-                }
-
-                .ticket-count {
-
-                    i {
-                        font-size: 1.2rem;
-                        width: 2rem;
-                        height: 2rem;
-
-                    }
-
-                    span {
-                        font-size: 1.1rem;
-                    }
-                }
-            }
-
-        }
-
-        .calendar {
-
-            .calendar-header {
-                gap: 1rem;
-                padding: 1.5rem 1rem;
-
-                span {
-                    font-size: 1.1rem;
-                }
-
-                i {
-                    font-size: 1.1rem;
-                }
-
-            }
-
-            .calendar-body {
-                gap: 1rem;
-                padding: 1rem;
-
-
-                .calendar-week-day {
-
-                    .week {
-                        font-size: 1rem;
-                        height: 2rem;
-                        text-align: center;
-                        width: 1.8rem;
-
-                    }
-                }
-            }
-
-            .calendar-days {
-                display: grid;
-                grid-template-columns: repeat(7, 1fr);
-                grid-template-rows: repeat(5, 1fr);
-                justify-content: center;
-                gap: 0.2rem;
-
-                .number,
-                .number-pre,
-                .active-date {
-                    font-size: 1rem;
-                    text-align: center;
-                    height: 2.7rem;
-                    width: 1.8rem;
-                }
-
-                .number-pre:hover,
-                .number:hover {
-                    border: 1px solid var(--color-gray);
-                }
-            }
-
+    .c-line-progress .c-line-container .c-line-black-container {
+        .c-line-text {
+            font-size: 0.95rem;
         }
 
     }
 
-    .section-2-entry .go-to-payment {
+    .c-line-progress .c-line-container .c-line-grey-container {
+        .c-line-text {
+            font-size: 0.95rem;
+        }
+    }
+
+    .c-pay-header {
+        font-size: 1.2rem;
+    }
+
+    .c-payment-container {
+        padding: 0.7rem 0.5rem;
+    }
+
+    .c-card-name-container {
+        flex: 1 1 80%;
+    }
+
+    .c-card-img-container {
+        flex: 1 1 10%;
+
+        img {
+            height: 1.5rem;
+        }
+
+    }
+
+    .c-card-name-container .c-card-name {
+        font-size: 1rem;
+    }
+
+    input#submit {
         font-size: 1.1rem;
         padding: 0.5rem 1rem;
         border-radius: 0.2rem;
     }
-
 }
 
 
