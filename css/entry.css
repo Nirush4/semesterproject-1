@@ -5,9 +5,8 @@
 }
 
 :root {
-    --color-primary: rgb(12, 135, 207);
-    --color-secondary: #231F20;
-    --color-header-top: #252C46;
+    --color-primary: #0177bb;
+    --color-secondary: #252C46;
     --color-tertiary: #EDEDED;
     --get-ticket-color: #fbe32d;
     --color-gray: #767676;
@@ -31,6 +30,10 @@ a {
     font-family: 'Roboto';
 }
 
+.common__div {
+    background-color: #fff;
+}
+
 /*imp! HEADER */
 
 
@@ -49,24 +52,66 @@ header {
 
 .header-top {
     display: flex;
+    flex: 1 1 100%;
     width: 100%;
     padding: 0.5rem 8%;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color-header-top);
+    background-color: var(--color-secondary);
     color: #fff;
     font-family: 'Roboto';
     font-size: 1.1rem;
+    gap: 2rem;
+
+}
+
+.opening-hours-div {
+    max-width: 62%;
+    mask: linear-gradient(90deg, transparent, #fff 15%, #fff 85%, transparent);
+    -webkit-mask: linear-gradient(90deg, transparent, #fff 15%, #fff 85%, transparent);
+
+}
+
+.opening-hours-div-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    width: max-content;
+    gap: 3rem;
+    user-select: none;
+    animation: scroll 20s linear infinite;
+
+}
+
+@keyframes scroll {
+    to {
+        transform: translate(calc(-50% - 1.5rem));
+    }
+}
+
+.opening-hours {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+
+
+    p {
+        width: 100%;
+        font-size: 1rem;
+    }
 }
 
 .header-login-main {
     display: flex;
+    justify-content: flex-end;
+    flex: 1 1 38%;
     gap: 1.5rem;
+    transition: all 0.2s ease-in-out;
 }
 
 .header-login-main a {
     text-decoration: none;
     color: #fff;
+    font-size: 1.1rem;
 }
 
 .header-member {
@@ -74,11 +119,26 @@ header {
     gap: 1rem;
 }
 
+.header-member:hover>span {
+    color: var(--get-ticket-color);
+}
+
+.header-member:hover>i {
+    color: var(--get-ticket-color);
+}
+
 .header-view-cart {
     display: flex;
     gap: 1rem;
 }
 
+.header-view-cart:hover>span {
+    color: var(--get-ticket-color);
+}
+
+.header-view-cart:hover>i {
+    color: var(--get-ticket-color);
+}
 
 .desktop-nav {
     display: flex;
@@ -189,11 +249,6 @@ header {
     font-family: 'Roboto';
     font-weight: 500;
     color: #000;
-    /* padding: 0.9rem 3rem; */
-}
-
-.nav-links li:nth-child(1) {
-    text-decoration: underline;
 }
 
 .nav-links li {
@@ -238,7 +293,7 @@ header {
 .search-box {
     display: flex;
     height: 2rem;
-    width: 16.3rem;
+    width: 9rem;
     cursor: pointer;
     background-color: #ffffffbb;
     align-items: center;
@@ -246,13 +301,14 @@ header {
     padding-left: 0.5rem;
     border-radius: 0.3rem;
     border: 2px solid rgb(192, 192, 192);
-    padding-left: 1rem;
+
 
 }
 
 .search-box:hover {
     background-color: var(--color-primary);
     color: #fff;
+    width: 13.5rem;
 }
 
 .search-box:hover input {
@@ -309,7 +365,7 @@ header {
         top: 0%;
         right: -100%;
         z-index: 100;
-        background-color: var(--color-header-top);
+        background-color: var(--color-secondary);
         transition: all 0.5s ease-in-out;
     }
 
@@ -555,10 +611,10 @@ header {
     .go-to-payment {
         text-decoration: none;
         font-family: 'Roboto';
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 500;
         padding: 0.8rem 3rem;
-        border-radius: 0.4rem;
+        border-radius: 0.3rem;
         background-color: #000000;
         color: #fff;
         transition: all 0.2s ease-in-out;
@@ -588,7 +644,7 @@ header {
 
         h1 {
             font-family: 'Roboto';
-            font-size: 2rem;
+            font-size: 1.6rem;
             font-weight: 500;
             padding-bottom: 2rem;
         }
@@ -603,7 +659,7 @@ header {
                 gap: 0.5rem;
 
                 p {
-                    font-size: 1.4rem;
+                    font-size: 1.2rem;
                     font-weight: 400;
                 }
             }
@@ -618,7 +674,7 @@ header {
                 align-items: center;
 
                 i {
-                    font-size: 1.3rem;
+                    font-size: 1.2rem;
                     width: 2.5rem;
                     height: 2.5rem;
                     border-radius: 100%;
@@ -670,12 +726,12 @@ header {
 
             span {
                 font-family: 'Roboto';
-                font-size: 1.5rem;
+                font-size: 1.4rem;
                 cursor: pointer;
             }
 
             i {
-                font-size: 1.5rem;
+                font-size: 1.2rem;
                 cursor: pointer;
             }
 
@@ -711,7 +767,7 @@ header {
             grid-template-columns: repeat(7, 1fr);
             grid-template-rows: repeat(5, 1fr);
             justify-content: center;
-            gap: 1rem;
+            gap: 0.5rem;
 
             .number,
             .number-pre,
@@ -757,7 +813,7 @@ header {
             padding: 2rem;
 
             h1 {
-                font-size: 1.7rem;
+                font-size: 1.5rem;
             }
 
             .ticket-age p {
@@ -777,7 +833,7 @@ header {
             .ticket-count {
 
                 i {
-                    font-size: 1.3rem;
+                    font-size: 1.2rem;
                     height: 2rem;
                 }
 
@@ -836,9 +892,6 @@ header {
 }
 
 @media (width<600px) {
-    .section-2-entry {
-        padding: 0 8% 3rem;
-    }
 
     .progress-bar {
         padding-bottom: 3rem;
@@ -966,7 +1019,7 @@ header {
 .footer-main-container {
     height: 5rem;
     width: 100%;
-    background-color: #333333;
+    background-color: #616881;
 }
 
 .footer-row-1 {
