@@ -1086,7 +1086,7 @@ header {
     display: inline-block;
     cursor: pointer;
     color: #fff;
-    background-color: var(--color-primary);
+    background-color: var(--color-secondary);
     padding: 0.5rem 1rem;
     font-family: 'Roboto';
     font-size: 1.1rem;

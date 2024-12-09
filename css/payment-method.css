@@ -703,7 +703,6 @@ header {
 .c-checkbox-container {
     display: flex;
     flex: 1 1 10%;
-    justify-content: baseline;
     align-items: center;
 }
 

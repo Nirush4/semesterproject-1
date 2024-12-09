@@ -511,7 +511,7 @@ header {
 
 .hero-text-div {
     position: absolute;
-    inset: 50% 10% auto 10%;
+    inset: 60% 10% auto 10%;
     justify-content: center;
     text-align: center;
     display: flex;
@@ -523,7 +523,7 @@ header {
     span {
         font-family: 'Roboto';
         color: #fff;
-        text-shadow: 3px 3px var(--color-header-top);
+        text-shadow: 3px 3px var(--color-primary);
     }
 
     h1 {
@@ -533,7 +533,7 @@ header {
         font-weight: 600;
         padding-bottom: 2rem;
         color: #fff;
-        text-shadow: 3px 3px var(--color-header-top);
+        text-shadow: 3px 3px var(--color-primary);
     }
 
     a {
@@ -549,7 +549,7 @@ header {
     }
 
     a:hover {
-        background-color: var(--color-primary);
+        background-color: var(--color-secondary);
         color: #fff;
     }
 }
