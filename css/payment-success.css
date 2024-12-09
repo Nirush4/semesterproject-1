@@ -7,9 +7,9 @@
 :root {
     --color-primary: #252C46;
     --color-secondary: #0177bb;
-    --color-tertiary: #EDEDED;
+    --color-tertiary: #f1f1f1;
     --get-ticket-color: #fbe32d;
-    --color-gray: #767676;
+    --color-gray: #656565;
     --color-learnmore-btn: #37446B;
     --color-footer-border: #e5e5e5;
     --color-footer-bg: #f4f4f4
@@ -834,7 +834,7 @@ header {
         font-family: 'Roboto';
         font-size: 1rem;
         font-weight: 400;
-        color: var(--color-gray);
+        color: #000000;
     }
 }
 
@@ -883,7 +883,7 @@ header {
         font-family: 'Roboto';
         font-size: 1rem;
         font-weight: 400;
-        color: var(--color-gray);
+        color: #000000;
     }
 
     span {
@@ -1052,6 +1052,7 @@ header {
     text-decoration: none;
     font-family: 'Roboto';
     font-size: 1rem;
+    padding: 0.8rem 3rem;
     font-weight: 400;
     color: #000000;
 }
