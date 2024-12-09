@@ -5,8 +5,8 @@
 }
 
 :root {
-    --color-primary: #0177bb;
-    --color-secondary: #252C46;
+    --color-primary: #252C46;
+    --color-secondary: #0177bb;
     --color-tertiary: #EDEDED;
     --get-ticket-color: #fbe32d;
     --color-gray: #767676;
@@ -57,7 +57,7 @@ header {
     padding: 0.5rem 8%;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     color: #fff;
     font-family: 'Roboto';
     font-size: 1.1rem;
@@ -209,7 +209,7 @@ header {
 }
 
 .join-today-div {
-
+    text-decoration: none;
     background-color: #fff;
     padding: 0.7rem 2.2rem;
     color: #000000;
@@ -369,7 +369,7 @@ header {
         top: 0%;
         right: -100%;
         z-index: 100;
-        background-color: var(--color-secondary);
+        background-color: var(--color-primary);
         transition: all 0.5s ease-in-out;
     }
 
@@ -442,7 +442,7 @@ header {
         bottom: 0;
         left: 0;
         justify-content: center;
-        background-color: var(--color-header-top);
+        background-color: var(--color-primary);
         width: 100%;
     }
 
@@ -465,7 +465,7 @@ header {
 
     .join-today-div {
         flex: 1 1 50%;
-        background-color: var(--color-header-top);
+        background-color: var(--color-primary);
         color: #fff;
     }
 
@@ -592,7 +592,7 @@ header {
 .section-2-explore {
     width: 100%;
     height: auto;
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     margin-top: 6rem;
 }
 
@@ -619,7 +619,7 @@ header {
     flex: 1 1 50%;
     width: 100%;
     height: auto;
-    background-color: #000000;
+    background-color: #1b2032;
     overflow: hidden;
 
 
@@ -648,7 +648,7 @@ header {
         font-size: 2rem;
         color: #000000;
         font-weight: 500;
-        border-bottom: 0.3rem solid var(--color-primary);
+        border-bottom: 0.3rem solid var(--color-secondary);
     }
 
     p {
@@ -665,7 +665,7 @@ header {
         font-family: 'Roboto';
         font-size: 1.2rem;
         font-weight: 500;
-        color: var(--color-primary);
+        color: var(--color-secondary);
         text-decoration: underline;
         text-decoration-thickness: 0.2rem;
         transition: all 0.5 ease-in-out;
@@ -893,7 +893,7 @@ header {
     display: inline-block;
     cursor: pointer;
     color: #fff;
-    background-color: var(--color-primary);
+    background-color: var(--color-secondary);
     padding: 0.5rem 1rem;
     font-family: 'Roboto';
     font-size: 1.1rem;
@@ -1261,7 +1261,7 @@ header {
     height: 4rem;
     width: 100%;
     padding: 0 8%;
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     justify-content: space-between;
 }
 
