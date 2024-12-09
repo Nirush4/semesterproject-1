@@ -754,7 +754,7 @@ header {
     width: 100%;
 }
 
-input#input {
+.input-pay {
     position: absolute;
     width: 100%;
     outline: none;
