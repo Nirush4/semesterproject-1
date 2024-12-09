@@ -5,8 +5,8 @@
 }
 
 :root {
-    --color-primary: #0177bb;
-    --color-secondary: #252C46;
+    --color-primary: #252C46;
+    --color-secondary: #0177bb;
     --color-tertiary: #EDEDED;
     --get-ticket-color: #fbe32d;
     --color-gray: #767676;
@@ -57,7 +57,7 @@ header {
     padding: 0.5rem 8%;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     color: #fff;
     font-family: 'Roboto';
     font-size: 1.1rem;
@@ -209,7 +209,7 @@ header {
 }
 
 .join-today-div {
-
+    text-decoration: none;
     background-color: #fff;
     padding: 0.7rem 2.2rem;
     color: #000000;
@@ -366,7 +366,7 @@ header {
         top: 0%;
         right: -100%;
         z-index: 100;
-        background-color: var(--color-secondary);
+        background-color: var(--color-primary);
         transition: all 0.5s ease-in-out;
     }
 
@@ -439,7 +439,7 @@ header {
         bottom: 0;
         left: 0;
         justify-content: center;
-        background-color: var(--color-header-top);
+        background-color: var(--color-primary);
         width: 100%;
     }
 
@@ -1184,7 +1184,7 @@ input#submit:hover {
     height: 4rem;
     width: 100%;
     padding: 0 8%;
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     justify-content: space-between;
 }
 

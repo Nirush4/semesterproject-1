@@ -5,9 +5,9 @@
 }
 
 :root {
-    --color-primary: #0177bb;
-    --color-secondary: #252C46;
-    --color-tertiary: #EDEDED;
+    --color-primary: #252C46;
+    --color-secondary: #0177bb;
+    --color-tertiary: #ededed;
     --get-ticket-color: #fbe32d;
     --color-gray: #767676;
     --color-learnmore-btn: #37446B;
@@ -57,7 +57,7 @@ header {
     padding: 0.5rem 8%;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     color: #fff;
     font-family: 'Roboto';
     font-size: 1.1rem;
@@ -209,7 +209,7 @@ header {
 }
 
 .join-today-div {
-
+    text-decoration: none;
     background-color: #fff;
     padding: 0.7rem 2.2rem;
     color: #000000;
@@ -369,7 +369,7 @@ header {
         top: 0%;
         right: -100%;
         z-index: 100;
-        background-color: var(--color-secondary);
+        background-color: var(--color-primary);
         transition: all 0.5s ease-in-out;
     }
 
@@ -442,7 +442,7 @@ header {
         bottom: 0;
         left: 0;
         justify-content: center;
-        background-color: var(--color-header-top);
+        background-color: var(--color-primary);
         width: 100%;
     }
 
@@ -465,7 +465,7 @@ header {
 
     .join-today-div {
         flex: 1 1 50%;
-        background-color: var(--color-header-top);
+        background-color: var(--color-primary);
         color: #fff;
     }
 
@@ -539,7 +539,7 @@ header {
     content: "";
     width: 100%;
     height: 0.25rem;
-    background-color: var(--color-primary);
+    background-color: var(--color-secondary);
     position: absolute;
     bottom: -2px;
     left: 0;
@@ -551,7 +551,7 @@ header {
     align-items: flex-start;
     gap: 0.3rem;
     height: auto;
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     padding: 2rem;
 
     h3 {
@@ -730,7 +730,7 @@ header {
     display: inline-block;
     cursor: pointer;
     color: #fff;
-    background-color: var(--color-primary);
+    background-color: var(--color-secondary);
     padding: 0.3rem 0.5rem;
     font-family: 'Roboto';
     font-size: 1.1rem;
@@ -828,13 +828,14 @@ header {
 
 .section-2-exhibitions {
     padding: 3rem 8% 1rem;
+    background-color: var(--color-primary);
 }
 
 .section-2-exhibitions h2 {
     font-family: 'Judson', Times, serif;
     font-size: 1.5rem;
     font-size: clamp(1.5rem, 1.1rem + 2vw, 3.5rem);
-    color: #000000;
+    color: #fff;
     padding-bottom: 0.2rem;
     width: fit-content;
     position: relative;
@@ -844,7 +845,7 @@ header {
     content: "";
     width: 100%;
     height: 0.25rem;
-    background-color: var(--color-primary);
+    background-color: var(--color-secondary);
     position: absolute;
     bottom: -2px;
     left: 0;
@@ -890,7 +891,7 @@ header {
         font-family: 'Roboto';
         font-size: 2rem;
         font-weight: 500;
-        color: #000000;
+        color: #fff;
     }
 
     p {
@@ -898,7 +899,7 @@ header {
         font-size: 1.2rem;
         font-weight: 400;
         text-align: justify;
-        color: #000000;
+        color: #fff;
         line-height: 1.5rem;
     }
 }
@@ -1453,7 +1454,7 @@ header {
     height: 4rem;
     width: 100%;
     padding: 0 8%;
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     justify-content: space-between;
 }
 
