@@ -7,9 +7,9 @@
 :root {
     --color-primary: #252C46;
     --color-secondary: #0177bb;
-    --color-tertiary: #EDEDED;
+    --color-tertiary: #f1f1f1;
     --get-ticket-color: #fbe32d;
-    --color-gray: #767676;
+    --color-gray: #656565;
     --color-learnmore-btn: #37446B;
     --color-footer-border: #e5e5e5;
     --color-footer-bg: #f4f4f4
@@ -649,7 +649,6 @@ header {
     gap: 1.7rem;
     width: 100%;
     height: 29rem;
-    /* padding-right: 20%; */
     overflow-x: scroll;
     cursor: pointer;
     scroll-snap-type: x mandatory;
@@ -664,7 +663,7 @@ header {
     transition: all 0.3s ease-in-out;
     overflow: hidden;
 
-    h4 {
+    h3 {
         font-family: 'Roboto';
         font-size: 1.1rem;
         font-weight: 500;
@@ -765,7 +764,7 @@ header {
         min-width: 16rem;
     }
 
-    .section-1-row-2 h4 {
+    .section-1-row-2 h3 {
         font-size: 0.9rem;
         padding-left: 0.5rem;
     }
@@ -1575,7 +1574,7 @@ header {
         font-family: 'Roboto';
         font-size: 1rem;
         font-weight: 400;
-        color: var(--color-gray);
+        color: #000000;
     }
 }
 
@@ -1624,7 +1623,7 @@ header {
         font-family: 'Roboto';
         font-size: 1rem;
         font-weight: 400;
-        color: var(--color-gray);
+        color: #000000;
     }
 
     span {
@@ -1741,6 +1740,10 @@ header {
     .footer-social-media-icons {
         display: flex;
         gap: 0.7rem;
+
+        a {
+            color: var(--color-primary);
+        }
     }
 }
 
@@ -1793,6 +1796,7 @@ header {
     text-decoration: none;
     font-family: 'Roboto';
     font-size: 1rem;
+    padding: 0.8rem 3rem;
     font-weight: 400;
     color: #000000;
 }

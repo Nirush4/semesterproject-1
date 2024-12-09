@@ -7,9 +7,9 @@
 :root {
     --color-primary: #252C46;
     --color-secondary: #0177bb;
-    --color-tertiary: #EDEDED;
+    --color-tertiary: #f1f1f1;
     --get-ticket-color: #fbe32d;
-    --color-gray: #767676;
+    --color-gray: #656565;
     --color-learnmore-btn: #37446B;
     --color-footer-border: #e5e5e5;
     --color-footer-bg: #f4f4f4
@@ -851,6 +851,27 @@ input#submit:hover {
 
 }
 
+.footer-row-1-left
+/*imp! FOOTER */
+
+
+.footer-main-container {
+    height: 5rem;
+    width: 100%;
+    background-color: #616881;
+}
+
+.footer-row-1 {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8%;
+    padding-top: 1.3rem;
+
+
+}
+
 .footer-row-1-left {
     display: flex;
     justify-content: flex-start;
@@ -915,7 +936,7 @@ input#submit:hover {
         font-family: 'Roboto';
         font-size: 1rem;
         font-weight: 400;
-        color: var(--color-gray);
+        color: #000000;
     }
 }
 
@@ -964,7 +985,7 @@ input#submit:hover {
         font-family: 'Roboto';
         font-size: 1rem;
         font-weight: 400;
-        color: var(--color-gray);
+        color: #000000;
     }
 
     span {
@@ -1133,6 +1154,7 @@ input#submit:hover {
     text-decoration: none;
     font-family: 'Roboto';
     font-size: 1rem;
+    padding: 0.8rem 3rem;
     font-weight: 400;
     color: #000000;
 }
