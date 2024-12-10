@@ -38,13 +38,7 @@
                         <p>| Monday: Closed</p>
                     </div>
                     <div class="opening-hours">
-                        <p>| Tuesday: 10:00-16:00</p>
-                    </div>
-                    <div class="opening-hours">
-                        <p>| Wednesday: 10:00-16:00</p>
-                    </div>
-                    <div class="opening-hours">
-                        <p>| Thursday: 10:00-16:00</p>
+                        <p>| Tuesday to Thursday: 10:00-16:00</p>
                     </div>
                     <div class="opening-hours">
                         <p>| Friday: 10:00-19:00</p>
@@ -59,13 +53,7 @@
                         <p>| Monday: Closed</p>
                     </div>
                     <div class="opening-hours">
-                        <p>| Tuesday: 10:00-16:00</p>
-                    </div>
-                    <div class="opening-hours">
-                        <p>| Wednesday: 10:00-16:00</p>
-                    </div>
-                    <div class="opening-hours">
-                        <p>| Thursday: 10:00-16:00</p>
+                        <p>| Tuesday to Thursday: 10:00-16:00</p>
                     </div>
                     <div class="opening-hours">
                         <p>| Friday: 10:00-19:00</p>
@@ -76,6 +64,22 @@
                     <div class="opening-hours">
                         <p>| Sunday: 9:00-13:00</p>
                     </div>
+                    <div class="opening-hours">
+                        <p>| Monday: Closed</p>
+                    </div>
+                    <div class="opening-hours">
+                        <p>| Tuesday to Thursday: 10:00-16:00</p>
+                    </div>
+                    <div class="opening-hours">
+                        <p>| Friday: 10:00-19:00</p>
+                    </div>
+                    <div class="opening-hours">
+                        <p>| Saturday: 9:00-16:00</p>
+                    </div>
+                    <div class="opening-hours">
+                        <p>| Sunday: 9:00-13:00</p>
+                    </div>
+
                 </div>
             </div>
             <div class="header-login-main">
@@ -92,8 +96,8 @@
         <nav class="desktop-nav">
             <div class="logo-div">
                 <div class="logo">
-                    <a role="logo" href="index.html" class="logo" aria-label="logo"><img src="/logo/Logo.png" alt="logo"
-                            aria-label="logo"></a>
+                    <a role="logo" href="index.html" class="logo" aria-label="logo"><img src="/logo/Logo.png"
+                            alt="the community science museum's logo" aria-label="logo"></a>
                 </div>
                 <div class="logo-div-right">
                     <a href="/exhibitions.html" class="get-ticket-div" aria-label="buy tickets">
@@ -126,7 +130,8 @@
                         <a href="" aria-label="search for items">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </a>
-                        <input type="search" id="" placeholder="Search...">
+                        <label for="search-1"></label>
+                        <input type="search" id="search-1" placeholder="Search...">
                     </div>
 
                 </div>
@@ -144,10 +149,12 @@
         <!--imp! SECTION-HERO -->
 
         <div class="hero-img" aria-label="section-hero">
-            <video autoplay loop muted poster="/" aria-label="hero video" id="hero-video"
-                poster="/images/hero-poster.jpg">
-                <source src="/images/hero-video.mp4">
-            </video>
+            <div class="hero-video-overlay">
+                <video autoplay loop muted poster="/" aria-label="hero video" id="hero-video"
+                    poster="/images/hero-poster.jpg">
+                    <source src="/images/hero-video.mp4">
+                </video>
+            </div>
             <img class="hero-img-mobile" src="/images/hero-img.jpg" alt="A picture of the museum">
             <div class="overlay">
             </div>
@@ -443,7 +450,9 @@
                     <h3>Bring some culture to your inbox</h3>
                 </div>
                 <div class="footer-row-1-right">
-                    <input type="text" name="" id="" autocomplete="email" placeholder="Enter your email to sign up.  >">
+                    <label for="email-footer"></label>
+                    <input type="text" name="" id="email-footer" autocomplete="email"
+                        placeholder="Enter your email to sign up.  >">
                 </div>
             </div>
         </div>
@@ -452,7 +461,7 @@
             <div class="footer-row-2-main-container">
                 <div class="footer-row-2-left">
                     <div class="footer-logo-div">
-                        <img src="/logo/Logo-black.png" alt="logo">
+                        <img src="/logo/Logo-black.png" alt="the community science museum's logo">
                     </div>
                     <div class="footer-row-2-left-address">
                         <h4>Address</h4>
@@ -515,6 +524,7 @@
 
                     <div class="footer-row-2-right-list-5 footer__right__common">
                         <h4>Join our newsletter</h4>
+                        <label for="email"></label>
                         <input type="text" name="" id="email" autocomplete="email" placeholder="Enter your email">
                         <button aria-label="sign up"><a href="/" aria-label="sign up">Sign Up</a></button>
                     </div>
