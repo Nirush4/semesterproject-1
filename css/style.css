@@ -6,13 +6,13 @@
 
 :root {
     --color-primary: #252C46;
-    --color-secondary: #0177bb;
+    --color-secondary: #0068a3;
     --color-tertiary: #f1f1f1;
-    --get-ticket-color: #fbe32d;
+    --get-ticket-color: #fbdd00;
     --color-gray: #656565;
     --color-learnmore-btn: #37446B;
     --color-footer-border: #e5e5e5;
-    --color-footer-bg: #f4f4f4
+    --color-title-underline: #0099FF
 }
 
 /*imp! COMMON CSS */
@@ -157,7 +157,7 @@ header {
     width: 100%;
     height: 6.5rem;
     padding: 1.5rem 8%;
-    background-image: linear-gradient(45deg, #074191, #006473, #0290e2, #006473, #074191);
+    background-image: linear-gradient(90deg, #074191, #006473, #0290e2, #006473, #074191);
     background-size: 200% auto;
     animation: topAnimation 4s linear infinite;
 }
@@ -246,7 +246,6 @@ header {
     text-decoration: none;
     list-style-type: none;
     font-size: 1.25rem;
-    font-family: 'Roboto';
     font-weight: 500;
     color: #000;
 
@@ -265,7 +264,6 @@ header {
 .nav-links li:hover {
     text-decoration: underline;
 }
-
 
 .c-open-menu,
 .c-close-menu {
@@ -351,9 +349,7 @@ header {
 @media (width <850px) {
 
     .nav-links a {
-        font-family: 'Roboto';
         font-weight: 500;
-        color: #fff;
 
     }
 
@@ -370,7 +366,7 @@ header {
         top: 0%;
         right: -100%;
         z-index: 100;
-        background-color: var(--color-primary);
+        background-color: #fff;
         transition: all 0.5s ease-in-out;
     }
 
@@ -379,7 +375,8 @@ header {
         display: flex;
         justify-content: center;
         width: 100%;
-        background-color: var(--color-tertiary);
+        background-color: #ebebeb;
+        ;
 
     }
 
@@ -397,7 +394,7 @@ header {
     }
 
     .c-close-menu i {
-        color: #fff;
+        color: #000000;
     }
 
     #check:checked~.nav-div .nav-links {
@@ -483,6 +480,13 @@ header {
 
 }
 
+.hero-video-overlay {
+    width: 100%;
+    background-color: #000000;
+    z-index: 3;
+    height: 100%;
+}
+
 .hero-img img {
     display: none;
     object-fit: cover;
@@ -494,18 +498,10 @@ header {
     position: relative;
 }
 
-.overlay {
-    display: none;
-    position: absolute;
-    inset: 0 0;
-    background-color: #000000;
-    opacity: 0.3;
-    height: 40rem;
-}
-
 .hero-img video {
     width: 100%;
     height: 100%;
+    opacity: 0.8;
     object-fit: cover;
 }
 
@@ -527,7 +523,6 @@ header {
     }
 
     h1 {
-        font-size: 1.7rem;
         font-size: clamp(1.7rem, 1.24rem + 2.3vw, 4rem);
         font-family: 'Italiana';
         font-weight: 600;
@@ -571,6 +566,7 @@ header {
     .hero-content span {
         font-size: 1.5rem;
     }
+
 }
 
 
@@ -579,8 +575,8 @@ header {
         display: flex;
     }
 
-    .overlay {
-        display: block;
+    .hero-video-overlay {
+        display: none;
     }
 
     .hero-text-div {
@@ -634,7 +630,7 @@ header {
     content: "";
     width: 100%;
     height: 0.25rem;
-    background-color: var(--color-secondary);
+    background-color: var(--color-title-underline);
     position: absolute;
     bottom: -2px;
     left: 0;
@@ -800,7 +796,6 @@ header {
 
     h3 {
         font-family: 'Judson', Times, serif;
-        font-size: 1.4rem;
         font-size: clamp(1.4rem, 1.18rem + 1.1vw, 2.5rem);
         padding-bottom: 1.5rem;
 
@@ -808,7 +803,6 @@ header {
 
     p {
         color: var(--color-gray);
-        text-align: justify;
         font-weight: 400;
         font-size: 1.1rem;
     }
@@ -905,7 +899,6 @@ header {
 
     h2 {
         font-family: 'Judson', Times, serif;
-        font-size: 1.5rem;
         font-size: clamp(1.5rem, 1rem + 2.5vw, 4rem);
         padding-top: 1rem;
         padding-bottom: 0.4rem;
@@ -1019,11 +1012,11 @@ header {
     background-color: transparent;
     width: 100%;
     height: 13%;
-    opacity: 1;
     max-height: 14rem;
     overflow: hidden;
     padding: 0 1.3rem 0rem 1.3rem;
     transition: all 0.3s ease-in-out;
+    background-color: #000000;
 
 
 
@@ -1160,7 +1153,6 @@ header {
 
     p {
         color: #fff;
-        text-align: justify;
         font-weight: 400;
         font-size: 1.1rem;
     }
@@ -1365,7 +1357,6 @@ header {
 
 .section-6-home h2 {
     font-family: 'Judson', Times, serif;
-    font-size: 1.4rem;
     font-size: clamp(1.4rem, 1.18rem + 1.1vw, 2.5rem);
     position: relative;
     width: fit-content;
@@ -1477,7 +1468,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(0 0 0 / 0.5);
+    background-color: var(--color-primary);
     color: #fff;
     font-family: 'Roboto';
     font-size: 1.3rem;
@@ -1682,7 +1673,6 @@ header {
 
     a {
         text-decoration: none;
-        font-family: 'Roboto';
         font-size: 1rem;
         font-weight: 00;
         color: #000000;
