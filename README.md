@@ -63,35 +63,6 @@ You have the choice to work on this individually or as part of a team of two.
 - ✅ As the site owner, I want good SEO to rank higher in search engines and attract more visitors.
 - ✅ As a developer, I want the GitHub repository public to allow for collaboration and code review.
 
-## Checklist
-
-Make sure you go through this checklist before submitting your project to Moodle.
-
-- ✅ All pages have a meta description.
-- ✅ All pages have a valid title.
-- ✅ All pages import the correct css files.
-- ✅ All pages import the correct JS file.
-- ✅ Input fields have the following attributes;
-- ✅ All images have an alt tag;
-  - ✅ A name,
-  - ✅ A placeholder,
-  - ✅ Required
-- ✅ Removed all unused files.
-- ✅ Named all images properly.
-- ✅ Committed all my code to github.
-- ✅ My repo is publically viewable.
-- ✅ I've submitted/ written a report.
-- ✅ I've removed all todo notes in code.
-- ✅ I've removed all console logs in code.
-- ✅ Code is formatted correctly.
-- ✅ There are no red underlines in VSCode.
-- ✅ There are no error messages in the terminal when I run the project.
-- ✅ My code is indented correctly.
-- ✅ I've checked my report for grammer & spelling using grammerly or chatGPT
-- ✅ I've used used [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
-- ✅ I've checked off every todo in this README.
-
-## Help & Tutorials
 
 ## Submission Guidelines
 
