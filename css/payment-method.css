@@ -893,7 +893,6 @@ input#submit:hover {
     height: auto;
     display: flex;
     gap: 3rem;
-    background-color: var();
 }
 
 .footer-row-2-left {
@@ -1103,7 +1102,7 @@ input#submit:hover {
     input {
         background-color: white;
         width: 80%;
-        height: 3rem;
+        height: 2.7rem;
         border-radius: 0.2rem;
         border: transparent;
         padding-left: 1rem;
@@ -1124,7 +1123,7 @@ input#submit:hover {
 
 .footer-row-2-right-list-5 button {
     width: 10rem;
-    height: 3rem;
+    height: 2.7rem;
     border-radius: 0.3rem;
     background-color: var(--color-footer-bg);
     border: 1.5px solid #000000;
@@ -1255,7 +1254,7 @@ input#submit:hover {
         align-items: flex-start;
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
-        gap: 0.5rem;
+        gap: 1rem;
         height: auto;
     }
 

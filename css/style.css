@@ -1757,7 +1757,7 @@ header {
     input {
         background-color: white;
         width: 80%;
-        height: 3rem;
+        height: 2.7rem;
         border-radius: 0.2rem;
         border: transparent;
         padding-left: 1rem;
@@ -1778,7 +1778,7 @@ header {
 
 .footer-row-2-right-list-5 button {
     width: 10rem;
-    height: 3rem;
+    height: 2.7rem;
     border-radius: 0.3rem;
     background-color: var(--color-footer-bg);
     border: 1.5px solid #000000;
@@ -1909,7 +1909,7 @@ header {
         align-items: flex-start;
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
-        gap: 0.5rem;
+        gap: 1rem;
         height: auto;
     }
 
