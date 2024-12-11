@@ -7,11 +7,12 @@
 :root {
     --color-primary: #252C46;
     --color-secondary: #0068a3;
-    --color-tertiary: #f1f1f1;
+    --color-tertiary: #eaeaea;
     --get-ticket-color: #fbdd00;
     --color-gray: #656565;
     --color-learnmore-btn: #37446B;
     --color-footer-border: #e5e5e5;
+    --color-footer-bg: #f4f4f4;
     --color-title-underline: #0099FF
 }
 
@@ -670,10 +671,6 @@ header {
         z-index: 2;
     }
 
-    img:hover~h4 {
-        justify-content: center;
-    }
-
     img {
         transition: all 0.3s ease-in-out;
         z-index: 1;
@@ -684,7 +681,7 @@ header {
     }
 
     .Professor {
-        background-color: var(--color-primary);
+        background-color: var(--color-secondary);
 
     }
 
@@ -715,6 +712,11 @@ header {
         font-size: 1rem;
         color: var(--color-gray);
     }
+}
+
+.section-1-row-2-img-div {
+    width: 100%;
+    overflow: hidden;
 }
 
 .section-1-row-2-content-left-div {
@@ -802,7 +804,7 @@ header {
     }
 
     p {
-        color: var(--color-gray);
+        color: #000000;
         font-weight: 400;
         font-size: 1.1rem;
     }
@@ -1016,14 +1018,14 @@ header {
     overflow: hidden;
     padding: 0 1.3rem 0rem 1.3rem;
     transition: all 0.3s ease-in-out;
-    background-color: #000000;
+    background-color: var(--color-secondary);
 
 
 
     h3 {
         font-family: 'Roboto';
-        font-size: 1.8rem;
-        font-weight: 500;
+        font-size: 1.6rem;
+        font-weight: 400;
         color: #fff;
     }
 
@@ -1367,7 +1369,7 @@ header {
     content: "";
     width: 100%;
     height: 0.25rem;
-    background-color: var(--color-primary);
+    background-color: var(--color-title-underline);
     position: absolute;
     bottom: -2px;
     left: 0;
@@ -1545,6 +1547,7 @@ header {
     height: auto;
     display: flex;
     gap: 3rem;
+    background-color: var();
 }
 
 .footer-row-2-left {
@@ -1674,7 +1677,7 @@ header {
     a {
         text-decoration: none;
         font-size: 1rem;
-        font-weight: 00;
+        font-weight: 400;
         color: #000000;
     }
 
@@ -1754,7 +1757,7 @@ header {
     input {
         background-color: white;
         width: 80%;
-        height: 2.7rem;
+        height: 3rem;
         border-radius: 0.2rem;
         border: transparent;
         padding-left: 1rem;
@@ -1775,7 +1778,7 @@ header {
 
 .footer-row-2-right-list-5 button {
     width: 10rem;
-    height: 2.7rem;
+    height: 3rem;
     border-radius: 0.3rem;
     background-color: var(--color-footer-bg);
     border: 1.5px solid #000000;
@@ -1906,7 +1909,7 @@ header {
         align-items: flex-start;
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
-        gap: 1rem;
+        gap: 0.5rem;
         height: auto;
     }
 

@@ -7,11 +7,12 @@
 :root {
     --color-primary: #252C46;
     --color-secondary: #0068a3;
-    --color-tertiary: #f1f1f1;
+    --color-tertiary: #eaeaea;
     --get-ticket-color: #fbdd00;
     --color-gray: #656565;
     --color-learnmore-btn: #37446B;
     --color-footer-border: #e5e5e5;
+    --color-footer-bg: #f4f4f4;
     --color-title-underline: #0099FF
 }
 

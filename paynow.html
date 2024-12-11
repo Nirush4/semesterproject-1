@@ -28,8 +28,6 @@
 
 <body>
 
-    <!--imp! HEADER -->
-
     <header id="header">
         <div class="header-top">
             <div class="opening-hours-div">
@@ -112,15 +110,15 @@
             <input type="checkbox" id="check" class="checkbox">
             <div class="nav-div">
                 <div class="nav-links">
-                    <li role="home" aria-label="home"> <a href="index.html" class="nav-item"
-                            aria-label="home page">Home</a>
-                    </li>
-                    <li role=" visit"> <a href="visit.html" class="nav-item" aria-label="visit page">Visit</a></li>
-                    <li role="exhibitions"> <a href="exhibitions.html" class="nav-item"
+                    <li role="menuitem" aria-label="home"> <a href="index.html" class="nav-item"
+                            aria-label="home page">Home</a></li>
+                    <li role=" menuitem"> <a href="visit.html" class="nav-item" aria-label="visit page">Visit</a></li>
+                    <li role="menuitem"> <a href="exhibitions.html" class="nav-item"
                             aria-label="exhibitions page">Exhibitions</a></li>
-                    <li role="explore"> <a href="explore.html" class="nav-item" aria-label="explore page">Explore</a>
+                    <li role="menuitem"> <a href="explore.html" class="nav-item" aria-label="explore page">Explore</a>
                     </li>
-                    <li role="about"> <a href="about.html" class="nav-item" aria-label="about the museum page">About the
+                    <li role="menuitem"> <a href="about.html" class="nav-item" aria-label="about the museum page">About
+                            the
                             Museum</a></li>
                     <label for="check" class="c-close-menu">
                         <i class="fa-solid fa-x"></i>
@@ -241,8 +239,8 @@
                     <h3>Bring some culture to your inbox</h3>
                 </div>
                 <div class="footer-row-1-right">
-                    <label for="email-footer"></label>
-                    <input type="text" name="" id="email-footer" autocomplete="email"
+                    <label for="email-footer-row-1"></label>
+                    <input type="text" name="" id="email-footer-row-1" autocomplete="email"
                         placeholder="Enter your email to sign up.  >">
                 </div>
             </div>
@@ -315,8 +313,9 @@
 
                     <div class="footer-row-2-right-list-5 footer__right__common">
                         <h4>Join our newsletter</h4>
-                        <label for="email"></label>
-                        <input type="text" name="" id="email" autocomplete="email" placeholder="Enter your email">
+                        <label for="email-footer-row-2"></label>
+                        <input type="text" name="" id="email-footer-row-2" autocomplete="email"
+                            placeholder="Enter your email">
                         <button aria-label="sign up"><a href="/" aria-label="sign up">Sign Up</a></button>
                     </div>
                     <div></div>
@@ -336,6 +335,7 @@
         </div>
 
     </footer>
+
 
     <script src="/script.js"></script>
 </body>
