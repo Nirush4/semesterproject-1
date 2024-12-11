@@ -106,6 +106,11 @@ Note: Resources and templates are provided under the project resources folder.
 - [Prettier](https://prettier.io/) - An opinionated code formatter
 - [Eslint](https://eslint.org/) - Find and fix problems in your JavaScript code
 
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/nirushan-rajamanoharan-056765209/)
+
 ## Authors
 
 - Nirushan Rajamanoharan (@Nirush4)
