@@ -10,6 +10,11 @@
 - [Production deploy](https://thecommunitysciencemuseum1.netlify.app/)
 - [Deployment CI](https://app.netlify.com/sites/thecommunitysciencemuseum1/overview)
 
+
+## Report
+
+- [Report](https://docs.google.com/document/d/17TJjRxLILkgv8cztgKqTxpbnHoFzGau5cbmkD82aHME/edit?usp=sharing)
+
 ## Build with
 
 ![HTML](/images/Readme/html.png) ![CSS](/images/Readme/css.png)
@@ -19,22 +24,6 @@
 * https://validator.w3.org/
 * https://wave.webaim.org/
 
-
-## Deployment
-
-Your deployment is done via static hosting provider (Netlify is recommended).
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FS3ak%2Ffed1-exam-vanilla-frontend-website&env=API_TOKEN,API_SECRET&envDescription=The%20API_TOKEN%20is%20needed%20to%20access%20a%20secure%20API%20endpoint.%20This%20can%20be%20the%20Authorization%20%60Bearer%20Token%60%20header%20used%20to%20make%20queries.&envLink=https%3A%2F%2Fvitejs.dev%2Fguide%2Fenv-and-mode.html&project-name=exam-front-end&repository-name=fed1-exam-vanilla-frontend-website&skippable-integrations=1)
-
-## Report
-
-- [Report](https://docs.google.com/document/d/1Q-rmOpeGXJ-xwUUeOcfhid4X0wBftrYU2mW_0n_VoeM/edit?usp=sharing)
-
-## Getting Started
-
-In the project directory, you can run:
-
-- Run index html with dev server
 
 ## Brief
 
