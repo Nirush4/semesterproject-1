@@ -7,11 +7,12 @@
 :root {
     --color-primary: #252C46;
     --color-secondary: #0068a3;
-    --color-tertiary: #f1f1f1;
+    --color-tertiary: #eaeaea;
     --get-ticket-color: #fbdd00;
     --color-gray: #656565;
     --color-learnmore-btn: #37446B;
     --color-footer-border: #e5e5e5;
+    --color-footer-bg: #f4f4f4;
     --color-title-underline: #0099FF
 }
 
@@ -1197,6 +1198,7 @@ header {
     height: auto;
     display: flex;
     gap: 3rem;
+    background-color: var();
 }
 
 .footer-row-2-left {
@@ -1326,7 +1328,7 @@ header {
     a {
         text-decoration: none;
         font-size: 1rem;
-        font-weight: 00;
+        font-weight: 400;
         color: #000000;
     }
 
@@ -1406,7 +1408,7 @@ header {
     input {
         background-color: white;
         width: 80%;
-        height: 2.7rem;
+        height: 3rem;
         border-radius: 0.2rem;
         border: transparent;
         padding-left: 1rem;
@@ -1427,7 +1429,7 @@ header {
 
 .footer-row-2-right-list-5 button {
     width: 10rem;
-    height: 2.7rem;
+    height: 3rem;
     border-radius: 0.3rem;
     background-color: var(--color-footer-bg);
     border: 1.5px solid #000000;
@@ -1558,7 +1560,7 @@ header {
         align-items: flex-start;
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
-        gap: 1rem;
+        gap: 0.5rem;
         height: auto;
     }
 
