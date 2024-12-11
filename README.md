@@ -14,6 +14,12 @@
 
 ![HTML](/images/Readme/html.png) ![CSS](/images/Readme/css.png)
 
+## Testing and debug:
+
+* https://validator.w3.org/
+* https://wave.webaim.org/
+
+
 ## Deployment
 
 Your deployment is done via static hosting provider (Netlify is recommended).
