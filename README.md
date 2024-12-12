@@ -1,8 +1,15 @@
 # FED1 Semester Project-1 (The Community Science Museum)
 
-## Resources
+## Introduction of the semester project-1
 
-<!-- You must replace these links -->
+For this **semester project-1** I had to create a functional responsive website for **the community science museum**. This website is a vibrant, interactive science museum designed for kids, families, and educators. Its user-friendly layout ensures that visitors of all ages can easily navigate and explore.
+
+With a modern, colorful design, the site aims to captivate and engage younger audiences while also making educators feel inspired and welcome. The visually appealing elements encourage curiosity and excitement about science.
+
+Each page is thoughtfully designed with accessible features, ensuring that everyone, regardless of ability, can enjoy the content and feel included.
+
+
+## Resources
 
 - [Brief](https://lms.noroff.no/pluginfile.php/339034/mod_resource/content/5/HTML__CSS_CA.pdf)
 - [Design-desktop](https://www.figma.com/proto/5cbdGCgNqnogjUstZbU3ng/Community-Science-Museum-Superman?page-id=0%3A1&node-id=1-3&node-type=canvas&viewport=164%2C57%2C0.06&t=f9NRTR0t2drpXXrw-1&scaling=min-zoom&content-scaling=fixed)
