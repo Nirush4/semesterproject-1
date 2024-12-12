@@ -483,7 +483,6 @@ header {
 }
 
 .breadcrumb a {
-    font-family: 'Roboto';
     font-size: 1.2rem;
     font-size: 400;
     padding-top: 2rem;
@@ -508,8 +507,7 @@ header {
 }
 
 .section-1-exhibitions h1 {
-    font-family: 'Judson', Times, serif;
-    font-size: 1.5rem;
+    font-family: "Playfair Display", serif;
     font-size: clamp(1.5rem, 1.1rem + 2vw, 3.5rem);
     color: #000000;
     padding-top: 2.5rem;
@@ -625,7 +623,6 @@ header {
 
 .buy-ticket a {
     text-decoration: none;
-    font-family: 'Roboto';
     font-size: 1.3rem;
     font-weight: 600;
     background-color: var(--get-ticket-color);
@@ -642,7 +639,6 @@ header {
 }
 
 .read-more-common p {
-    font-family: 'Roboto';
     font-size: 1.1rem;
     font-weight: 300;
     text-align: justify;
@@ -832,8 +828,7 @@ header {
 }
 
 .section-2-exhibitions h2 {
-    font-family: 'Judson', Times, serif;
-    font-size: 1.5rem;
+    font-family: "Playfair Display", serif;
     font-size: clamp(1.5rem, 1.1rem + 2vw, 3.5rem);
     color: #fff;
     padding-bottom: 0.2rem;
@@ -1032,7 +1027,6 @@ header {
     }
 
     p {
-        font-family: 'Roboto';
         font-size: 1.2rem;
         font-weight: 400;
         text-align: justify;
@@ -1215,9 +1209,15 @@ header {
     }
 
     p {
-        font-family: 'Roboto';
         font-size: 1rem;
         font-weight: 400;
+        color: #000000;
+    }
+
+    span {
+        font-family: 'Roboto';
+        font-size: 1.1rem;
+        font-weight: 500;
         color: #000000;
     }
 }
@@ -1264,18 +1264,11 @@ header {
     }
 
     p {
-        font-family: 'Roboto';
         font-size: 1rem;
         font-weight: 400;
         color: #000000;
     }
 
-    span {
-        font-family: 'Roboto';
-        font-size: 1.1rem;
-        font-weight: 500;
-        color: #000000;
-    }
 
 }
 
@@ -1303,7 +1296,6 @@ header {
 
     a {
         text-decoration: none;
-        font-family: 'Roboto';
         font-size: 1rem;
         font-weight: 400;
         color: #000000;
@@ -1437,7 +1429,6 @@ header {
 
 .footer-row-2-right-list-5 button a {
     text-decoration: none;
-    font-family: 'Roboto';
     font-size: 1rem;
     padding: 0.8rem 3rem;
     font-weight: 400;
@@ -1464,7 +1455,6 @@ header {
 
 .footer-left-div p {
     color: #fff;
-    font-family: 'Roboto';
     font-size: 0.9rem;
     font-weight: 400;
 }
@@ -1475,7 +1465,6 @@ header {
 
     p {
         color: #fff;
-        font-family: 'Roboto';
         font-size: 0.9rem;
         font-weight: 400;
     }
@@ -1501,6 +1490,11 @@ header {
 }
 
 @media (width <850px) {
+
+    .footer-row-2-main-container {
+        gap: 2rem;
+    }
+
     .footer-main-container {
         height: auto;
     }

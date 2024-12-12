@@ -487,7 +487,6 @@ header {
 }
 
 .breadcrumb a {
-    font-family: 'Roboto';
     font-size: 1.2rem;
     font-size: 400;
     padding-top: 2rem;
@@ -525,8 +524,7 @@ header {
     padding: 6% 8%;
 
     h1 {
-        font-family: 'Judson', Times, serif;
-        font-size: 1.4rem;
+        font-family: "Playfair Display", serif;
         font-size: clamp(1.4rem, 0.9799999999999999rem + 2.1vw, 3.5rem);
         color: #000000;
     }
@@ -652,7 +650,6 @@ header {
     }
 
     p {
-        font-family: 'Roboto';
         font-size: 1.2rem;
         font-weight: 400;
         text-align: justify;
@@ -662,7 +659,6 @@ header {
     }
 
     a {
-        font-family: 'Roboto';
         font-size: 1.2rem;
         font-weight: 500;
         color: var(--color-secondary);
@@ -783,8 +779,7 @@ header {
     justify-content: center;
 
     h2 {
-        font-family: 'Judson', Times, serif;
-        font-size: 1.4rem;
+        font-family: "Playfair Display", serif;
         font-size: clamp(1.4rem, 1.1199999999999999rem + 1.4vw, 2.8rem);
         font-weight: 600;
         color: #000000;
@@ -829,7 +824,6 @@ header {
 
     h3 {
         font-family: 'Roboto';
-        font-size: 1.2rem;
         font-size: clamp(1.2rem, 1.0799999999999998rem + 0.6000000000000001vw, 1.8rem);
         color: #000000;
         font-weight: 500;
@@ -839,7 +833,6 @@ header {
     }
 
     p {
-        font-family: 'Roboto';
         font-size: 1.2rem;
         font-weight: 400;
         text-align: justify;
@@ -1022,9 +1015,15 @@ header {
     }
 
     p {
-        font-family: 'Roboto';
         font-size: 1rem;
         font-weight: 400;
+        color: #000000;
+    }
+
+    span {
+        font-family: 'Roboto';
+        font-size: 1.1rem;
+        font-weight: 500;
         color: #000000;
     }
 }
@@ -1071,18 +1070,11 @@ header {
     }
 
     p {
-        font-family: 'Roboto';
         font-size: 1rem;
         font-weight: 400;
         color: #000000;
     }
 
-    span {
-        font-family: 'Roboto';
-        font-size: 1.1rem;
-        font-weight: 500;
-        color: #000000;
-    }
 
 }
 
@@ -1110,7 +1102,6 @@ header {
 
     a {
         text-decoration: none;
-        font-family: 'Roboto';
         font-size: 1rem;
         font-weight: 400;
         color: #000000;
@@ -1244,7 +1235,6 @@ header {
 
 .footer-row-2-right-list-5 button a {
     text-decoration: none;
-    font-family: 'Roboto';
     font-size: 1rem;
     padding: 0.8rem 3rem;
     font-weight: 400;
@@ -1271,7 +1261,6 @@ header {
 
 .footer-left-div p {
     color: #fff;
-    font-family: 'Roboto';
     font-size: 0.9rem;
     font-weight: 400;
 }
@@ -1282,7 +1271,6 @@ header {
 
     p {
         color: #fff;
-        font-family: 'Roboto';
         font-size: 0.9rem;
         font-weight: 400;
     }
@@ -1308,6 +1296,11 @@ header {
 }
 
 @media (width <850px) {
+
+    .footer-row-2-main-container {
+        gap: 2rem;
+    }
+
     .footer-main-container {
         height: auto;
     }

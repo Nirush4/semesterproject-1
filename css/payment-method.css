@@ -478,7 +478,6 @@ header {
 }
 
 .breadcrumb a {
-    font-family: 'Roboto';
     font-size: 1.2rem;
     font-weight: 400;
     padding-top: 2rem;
@@ -910,9 +909,15 @@ input#submit:hover {
     }
 
     p {
-        font-family: 'Roboto';
         font-size: 1rem;
         font-weight: 400;
+        color: #000000;
+    }
+
+    span {
+        font-family: 'Roboto';
+        font-size: 1.1rem;
+        font-weight: 500;
         color: #000000;
     }
 }
@@ -959,18 +964,11 @@ input#submit:hover {
     }
 
     p {
-        font-family: 'Roboto';
         font-size: 1rem;
         font-weight: 400;
         color: #000000;
     }
 
-    span {
-        font-family: 'Roboto';
-        font-size: 1.1rem;
-        font-weight: 500;
-        color: #000000;
-    }
 
 }
 
@@ -998,7 +996,6 @@ input#submit:hover {
 
     a {
         text-decoration: none;
-        font-family: 'Roboto';
         font-size: 1rem;
         font-weight: 400;
         color: #000000;
@@ -1132,7 +1129,6 @@ input#submit:hover {
 
 .footer-row-2-right-list-5 button a {
     text-decoration: none;
-    font-family: 'Roboto';
     font-size: 1rem;
     padding: 0.8rem 3rem;
     font-weight: 400;
@@ -1159,7 +1155,6 @@ input#submit:hover {
 
 .footer-left-div p {
     color: #fff;
-    font-family: 'Roboto';
     font-size: 0.9rem;
     font-weight: 400;
 }
@@ -1170,7 +1165,6 @@ input#submit:hover {
 
     p {
         color: #fff;
-        font-family: 'Roboto';
         font-size: 0.9rem;
         font-weight: 400;
     }
@@ -1196,6 +1190,11 @@ input#submit:hover {
 }
 
 @media (width <850px) {
+
+    .footer-row-2-main-container {
+        gap: 2rem;
+    }
+
     .footer-main-container {
         height: auto;
     }
