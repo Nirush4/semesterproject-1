@@ -536,7 +536,6 @@ header {
         text-decoration: none;
         color: #000000;
         background-color: #fff;
-        font-family: 'Roboto';
         font-size: 1.4rem;
         padding: 0.7rem 2.5rem;
         border-radius: 0.3rem;
@@ -572,6 +571,11 @@ header {
 
 
 @media (width<600px) {
+
+    .hero-img {
+        height: fit-content;
+    }
+
     .hero-img img {
         display: flex;
     }
@@ -604,10 +608,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    padding-bottom: 3rem;
 
     h2 {
-        font-family: 'Judson', Times, serif;
-        font-size: 1.4rem;
+        font-family: "Playfair Display", serif;
         font-size: clamp(1.4rem, 1.18rem + 1.1vw, 2.5rem);
         position: relative;
     }
@@ -654,7 +658,6 @@ header {
 .section-1-row-2 {
     display: flex;
     flex-direction: column;
-    padding-top: 3rem;
     min-width: 30rem;
     height: auto;
     transition: all 0.3s ease-in-out;
@@ -748,6 +751,10 @@ header {
         padding-top: 2rem;
     }
 
+    .section-1-row-1 {
+        padding-bottom: 0;
+    }
+
     .section-1-row-1 span {
         font-size: 1.1rem;
     }
@@ -788,7 +795,7 @@ header {
 
 .section-2-home {
     padding: 0rem 8%;
-    padding-top: 4rem;
+    padding-top: 1rem;
 }
 
 .section-2-component-1 {
@@ -797,7 +804,7 @@ header {
     flex: 1 1 100%;
 
     h3 {
-        font-family: 'Judson', Times, serif;
+        font-family: "Playfair Display", serif;
         font-size: clamp(1.4rem, 1.18rem + 1.1vw, 2.5rem);
         padding-bottom: 1.5rem;
 
@@ -900,7 +907,7 @@ header {
     padding-bottom: 4rem;
 
     h2 {
-        font-family: 'Judson', Times, serif;
+        font-family: "Playfair Display", serif;
         font-size: clamp(1.5rem, 1rem + 2.5vw, 4rem);
         padding-top: 1rem;
         padding-bottom: 0.4rem;
@@ -1070,7 +1077,7 @@ header {
 
 @media (width<600px) {
     .section-3-home {
-        padding-top: 0;
+        padding-top: 1rem;
     }
 
     .section-3-component-1 {
@@ -1087,7 +1094,7 @@ header {
         content: "";
         width: 100%;
         height: 0.25rem;
-        background-color: var(--color-primary);
+        background-color: var(--color-title-underline);
         position: absolute;
         bottom: -2px;
         left: 0;
@@ -1144,8 +1151,7 @@ header {
     flex: 1 1 100%;
 
     h3 {
-        font-family: 'Judson', Times, serif;
-        font-size: 1.4rem;
+        font-family: "Playfair Display", serif;
         font-size: clamp(1.4rem, 1.18rem + 1.1vw, 2.5rem);
         font-weight: 500;
         padding-bottom: 1.5rem;
@@ -1293,7 +1299,6 @@ header {
     flex-shrink: 1;
 
     p {
-        font-family: 'Roboto';
         font-size: 1.1rem;
         text-align: center;
         color: #fff;
@@ -1358,7 +1363,7 @@ header {
 }
 
 .section-6-home h2 {
-    font-family: 'Judson', Times, serif;
+    font-family: "Playfair Display", serif;
     font-size: clamp(1.4rem, 1.18rem + 1.1vw, 2.5rem);
     position: relative;
     width: fit-content;
@@ -1547,7 +1552,6 @@ header {
     height: auto;
     display: flex;
     gap: 3rem;
-    background-color: var();
 }
 
 .footer-row-2-left {
@@ -1565,9 +1569,15 @@ header {
     }
 
     p {
-        font-family: 'Roboto';
         font-size: 1rem;
         font-weight: 400;
+        color: #000000;
+    }
+
+    span {
+        font-family: 'Roboto';
+        font-size: 1.1rem;
+        font-weight: 500;
         color: #000000;
     }
 }
@@ -1614,18 +1624,11 @@ header {
     }
 
     p {
-        font-family: 'Roboto';
         font-size: 1rem;
         font-weight: 400;
         color: #000000;
     }
 
-    span {
-        font-family: 'Roboto';
-        font-size: 1.1rem;
-        font-weight: 500;
-        color: #000000;
-    }
 
 }
 
@@ -1653,7 +1656,6 @@ header {
 
     a {
         text-decoration: none;
-        font-family: 'Roboto';
         font-size: 1rem;
         font-weight: 400;
         color: #000000;
@@ -1825,7 +1827,6 @@ header {
 
     p {
         color: #fff;
-        font-family: 'Roboto';
         font-size: 0.9rem;
         font-weight: 400;
     }
@@ -1851,6 +1852,11 @@ header {
 }
 
 @media (width <850px) {
+
+    .footer-row-2-main-container {
+        gap: 2rem;
+    }
+
     .footer-main-container {
         height: auto;
     }
