@@ -65,7 +65,22 @@ You have the choice to work on this individually or as part of a team of two.
 - ✅ As the site owner, I want good SEO to rank higher in search engines and attract more visitors.
 - ✅ As a developer, I want the GitHub repository public to allow for collaboration and code review.
 
+## Checklist
 
+- ✅ A high-fidelityprototype for desktop, accompanied by an explanation of how you would approach the mobile prototype in the report (2 points)
+- ✅ UX/UI: Responsiveness and accessibility (2 point)
+- ✅ HTML is bug-free and semantic (2 points)
+- ✅ CSS follows DRY principles (2 points)
+- ✅ Website is responsive (4 points)
+- ✅ Each page has unique titles and descriptions (1 point)
+- ✅ Each page has a unique H1 (1 point)
+- ✅ Images are below 200kb (1 point)
+- ✅ Colors are WCAG compliant (1 point)
+- ✅ Images have alt text (1 point)
+- ✅ Project is well-organized and files are formatted (1 point)
+- ✅ Report includes lessons learned and challenges (1 point)
+- ✅ Project successfully planned and completed (1 point)
+  
 ## Submission Guidelines
 
 The following must be added in your PDF report (use the template provided) and submit on moodle
