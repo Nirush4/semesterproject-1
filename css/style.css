@@ -616,16 +616,16 @@ header {
         position: relative;
     }
 
-    span {
+    a {
         font-size: 1.3rem;
-        font-family: 'Roboto';
+        text-decoration: none;
         font-weight: 500;
+        color: #000000;
         transition: all 0.2s ease-in-out;
-        cursor: pointer;
 
     }
 
-    span:hover {
+    a:hover {
         text-decoration: underline;
     }
 
@@ -755,7 +755,7 @@ header {
         padding-bottom: 0;
     }
 
-    .section-1-row-1 span {
+    .section-1-row-1 a {
         font-size: 1.1rem;
     }
 
@@ -816,16 +816,16 @@ header {
         font-size: 1.1rem;
     }
 
-    span {
+    a {
         margin-top: 30%;
-        font-family: 'Roboto';
+        text-decoration: none;
+        color: #000000;
         font-size: 1.1rem;
         font-weight: 500;
-        cursor: pointer;
 
     }
 
-    span:hover {
+    a:hover {
         text-decoration: underline;
     }
 
@@ -855,7 +855,7 @@ header {
 }
 
 @media (width>1536px) {
-    .section-2-component-1 span {
+    .section-2-component-1 a {
         margin-top: 10rem;
     }
 }
@@ -873,7 +873,7 @@ header {
         order: 1;
     }
 
-    .section-2-component-1 span {
+    .section-2-component-1 a {
         margin-top: 20%;
     }
 }
@@ -1166,17 +1166,16 @@ header {
         font-size: 1.1rem;
     }
 
-    span {
+    a {
         margin-top: 30%;
-        font-family: 'Roboto';
+        text-decoration: none;
         font-size: 1.1rem;
         font-weight: 500;
-        cursor: pointer;
         color: #fff;
 
     }
 
-    span:hover {
+    a:hover {
         text-decoration: underline;
     }
 
@@ -1206,7 +1205,7 @@ header {
 }
 
 @media (width>1536px) {
-    .section-4-component-1 span {
+    .section-4-component-1 a {
         margin-top: 10rem;
     }
 }
@@ -1229,7 +1228,7 @@ header {
         order: 1;
     }
 
-    .section-4-component-1 span {
+    .section-4-component-1 a {
         margin-top: 20%;
     }
 }
