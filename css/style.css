@@ -817,7 +817,7 @@ header {
     }
 
     a {
-        margin-top: 30%;
+        margin-top: 22%;
         text-decoration: none;
         color: #000000;
         font-size: 1.1rem;
@@ -856,7 +856,7 @@ header {
 
 @media (width>1536px) {
     .section-2-component-1 a {
-        margin-top: 10rem;
+        margin-top: 8rem;
     }
 }
 
