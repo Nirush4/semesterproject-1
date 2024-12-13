@@ -501,9 +501,20 @@ header {
     padding-top: 4rem;
 }
 
+.section-1-exhibitions-img {
+    width: 100%;
+    overflow: hidden;
+}
+
 .section-1-exhibitions-img img {
     width: 100%;
     display: block;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.section-1-exhibitions-list:hover .section-1-exhibitions-img img {
+    scale: 105%;
 }
 
 .section-1-exhibitions h1 {
@@ -557,7 +568,23 @@ header {
         font-size: 1.7rem;
         font-weight: 500;
         color: #fff;
+        position: relative;
     }
+
+    h3::after {
+        content: "";
+        width: 0%;
+        height: 0.25rem;
+        background-color: var(--color-secondary);
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+.section-1-exhibitions-list:hover .section-1-exhibitions-list-content h3::after {
+    width: 100%;
 }
 
 .section-1-exhibitions-heading {
@@ -587,7 +614,6 @@ header {
     font-weight: 300;
     text-align: justify;
     color: #fff;
-    /* padding-bottom: 1.5rem; */
 }
 
 .section-1-span-1 {

@@ -601,7 +601,7 @@ header {
 
 .section-1-home {
     padding: 0.5rem 8%;
-    padding-top: 5rem;
+    padding-top: 4rem;
 }
 
 .section-1-row-1 {
@@ -649,10 +649,21 @@ header {
     flex-wrap: nowrap;
     gap: 1.7rem;
     width: 100%;
-    height: 29rem;
+    height: 27rem;
     overflow-x: scroll;
     cursor: pointer;
     scroll-snap-type: x mandatory;
+}
+
+.section-1-component-1::-webkit-scrollbar {
+    background: var(--color-tertiary);
+    height: 0.6rem;
+    border-radius: 0.4rem;
+}
+
+.section-1-component-1::-webkit-scrollbar-thumb {
+    background: #a6a5a5;
+    border-radius: 0.4rem;
 }
 
 .section-1-row-2 {
@@ -701,7 +712,7 @@ header {
     }
 
     .model {
-        background-color: #D08B02
+        background-color: #835700
     }
 }
 
@@ -795,7 +806,7 @@ header {
 
 .section-2-home {
     padding: 0rem 8%;
-    padding-top: 1rem;
+    padding-top: 5rem;
 }
 
 .section-2-component-1 {
@@ -880,7 +891,7 @@ header {
 
 @media (width<600px) {
     .section-2-home {
-        padding: 0;
+        padding: 2.33rem 0 0;
     }
 
     .section-2-component-1 p {
@@ -1143,7 +1154,7 @@ header {
 /*imp! SECTION-4 */
 
 .section-4-home {
-    padding: 3rem 8% 0;
+    padding: 2rem 8% 0;
 }
 
 .section-4-component-1 {
@@ -1250,7 +1261,7 @@ header {
 /*imp! SECTION-5 */
 
 .section-5-home {
-    padding: 7rem 8% 6rem;
+    padding: 6rem 8% 5rem;
 }
 
 .section-5-component {
