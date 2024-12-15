@@ -1037,7 +1037,7 @@ header {
     overflow: hidden;
     padding: 0 1.3rem 0rem 1.3rem;
     transition: all 0.3s ease-in-out;
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
 
 
 
@@ -1064,7 +1064,7 @@ header {
     padding: 1.3rem 1.3rem 1.3rem 2rem;
     height: 60%;
     opacity: 1;
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
 }
 
 @media (width<1170px) {
