@@ -1,12 +1,36 @@
 # FED1 Semester Project-1 (The Community Science Museum)
 
-## Introduction of the semester project-1
+#Goal
 
-For this **semester project-1** I had to create a functional responsive website for **the community science museum**. This website is a vibrant, interactive science museum designed for kids, families, and educators. Its user-friendly layout ensures that visitors of all ages can easily navigate and explore.
+Using your new skills writing JavaScript, create an interactive online store to display product from an API endpoint. Use one of the three provided API URLs to display products in HTML and allow users to create a basket of items. You may use your existing cross course project code as a starting point or start a fresh project if this is not available. We recommend using an existing project as styling will not be graded, but is nice to have in the final submission.
 
-With a modern, colorful design, the site aims to captivate and engage younger audiences while also making educators feel inspired and welcome. The visually appealing elements encourage curiosity and excitement about science.
+##User Stories
 
-Each page is thoughtfully designed with accessible features, ensuring that everyone, regardless of ability, can enjoy the content and feel included.
+- As a user, I want to view a list of products on the homepage.
+- As a user, I want to filter products by category, gender or genre.
+- As a user, I want to view a single product page with more detail.
+- As a user, I want to add a product to my basket.
+- As a user, I want to remove a product from my basket.
+- As a user, I want to view a summary of my cart on the checkout page.
+- As a user, I want to view an order-confirmation screen after checking out.
+
+##Required Pages
+
+The following pages are required to complete this assignment.
+- Home Page containing product list /index.html
+- Product Page showing all details of a specific product /product/index.html
+- Checkout Page showing all items in the basket /checkout/index.html
+- Confirmation Page showing a thank you message /checkout/confirmation/index.html Optional Pages The following pages are not required to complete this assignment but help to improve the realism for those with extra time. - Category Pages (e.g. Male/Female Clothing, Movie Genres)
+- Terms and Conditions page (this may be AI generated)
+- Privacy Policy (this may be AI generated) - My Profile Process
+Decide if you will use your existing project, or a fresh project.
+
+Open your project in GitHub Desktop and VS Code.
+Select one of the three provided endpoints from the list below.
+Checkout the API documentation for your chosen endpoint.
+Work through the requirements in JavaScript one by one.
+Test your work thoroughly and ask for peer review.
+Offer to review two other student's work.
 
 
 ## Resources
@@ -21,6 +45,22 @@ Each page is thoughtfully designed with accessible features, ensuring that every
 ## Report
 
 - [Report](https://docs.google.com/document/d/17TJjRxLILkgv8cztgKqTxpbnHoFzGau5cbmkD82aHME/edit?usp=sharing)
+ 
+## Features
+
+- SEO friendly #TODO
+- Responsive #TODO
+- Prebuilt components #TODO
+- E2E testing with every pull request #TODO
+
+
+### production
+
+Production is the enviromewnt the end-user experience. This is the final product that will be deployed to the public. This enviroment is hosted on Netlify.
+
+### staging
+
+Staging is the enviroment where the team can test the latest features and bug fixes. This enviroment is hosted on Vercel.
 
 ## Build with
 
