@@ -14,8 +14,8 @@ Each page is thoughtfully designed with accessible features, ensuring that every
 - [Brief](https://lms.noroff.no/pluginfile.php/339034/mod_resource/content/5/HTML__CSS_CA.pdf)
 - [Design-desktop](https://www.figma.com/proto/5cbdGCgNqnogjUstZbU3ng/Community-Science-Museum-Superman?page-id=0%3A1&node-id=1-3&node-type=canvas&viewport=164%2C57%2C0.06&t=f9NRTR0t2drpXXrw-1&scaling=min-zoom&content-scaling=fixed)
 - [Design-mobile](https://www.figma.com/proto/5cbdGCgNqnogjUstZbU3ng/Community-Science-Museum-Superman?page-id=447%3A6866&node-id=447-6901&node-type=canvas&viewport=-311%2C1368%2C0.31&t=IvxFJwo4SmocGHjb-1&scaling=scale-down&content-scaling=fixed)
-- [Production deploy](https://thecommunitysciencemuseum1.netlify.app/)
-- [Deployment CI](https://app.netlify.com/sites/thecommunitysciencemuseum1/overview)
+- [Production deploy](https://rainydays-webshop-no.netlify.app/)
+- [Deployment CI](https://app.netlify.com/sites/rainydays-webshop-no/overview)
 
 
 ## Report
