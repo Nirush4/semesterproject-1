@@ -26,6 +26,8 @@ The following pages are required to complete this assignment.
 - Privacy Policy (this may be AI generated) - My Profile Process
 Decide if you will use your existing project, or a fresh project.
 
+---
+ 
 1. Decide if you will use your existing project, or a fresh project.
 2. Open your project in GitHub Desktop and VS Code.
 3. Select one of the three provided endpoints from the list below.
